@@ -1,5 +1,5 @@
 {
-  "name": "@terrierscript/wordnet-dics",
+  "name": "@terrierscript/dictionary",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,6 +7,9 @@
     "en-dictionary": "https://github.com/open-language/en-dictionary",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "generate": "ts-node --transpile-only generator/generate.ts"
   },
   "dependencies": {
     "md5": "^2.3.0"
