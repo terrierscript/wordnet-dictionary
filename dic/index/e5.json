@@ -221,6 +221,55 @@
       "isComment": false
     }
   },
+  "cursively": {
+    "adverb": {
+      "lemma": "cursively",
+      "pos": "adverb",
+      "offsetCount": 1,
+      "offsets": [
+        515706
+      ],
+      "offsetData": [],
+      "pointerCount": 1,
+      "pointers": [
+        {
+          "symbol": "Derived from adjective",
+          "offset": 0,
+          "pos": "adverb"
+        }
+      ],
+      "senseCount": 1,
+      "tagSenseCount": 0,
+      "isComment": false
+    }
+  },
+  "foolishly": {
+    "adverb": {
+      "lemma": "foolishly",
+      "pos": "adverb",
+      "offsetCount": 1,
+      "offsets": [
+        203162
+      ],
+      "offsetData": [],
+      "pointerCount": 2,
+      "pointers": [
+        {
+          "symbol": "Antonym",
+          "offset": 0,
+          "pos": "adverb"
+        },
+        {
+          "symbol": "Derived from adjective",
+          "offset": 0,
+          "pos": "adverb"
+        }
+      ],
+      "senseCount": 1,
+      "tagSenseCount": 0,
+      "isComment": false
+    }
+  },
   "abattoir": {
     "noun": {
       "lemma": "abattoir",
@@ -441,55 +490,6 @@
           "symbol": "Part holonym",
           "offset": 0,
           "pos": "noun"
-        }
-      ],
-      "senseCount": 1,
-      "tagSenseCount": 0,
-      "isComment": false
-    }
-  },
-  "cursively": {
-    "adverb": {
-      "lemma": "cursively",
-      "pos": "adverb",
-      "offsetCount": 1,
-      "offsets": [
-        515706
-      ],
-      "offsetData": [],
-      "pointerCount": 1,
-      "pointers": [
-        {
-          "symbol": "Derived from adjective",
-          "offset": 0,
-          "pos": "adverb"
-        }
-      ],
-      "senseCount": 1,
-      "tagSenseCount": 0,
-      "isComment": false
-    }
-  },
-  "foolishly": {
-    "adverb": {
-      "lemma": "foolishly",
-      "pos": "adverb",
-      "offsetCount": 1,
-      "offsets": [
-        203162
-      ],
-      "offsetData": [],
-      "pointerCount": 2,
-      "pointers": [
-        {
-          "symbol": "Antonym",
-          "offset": 0,
-          "pos": "adverb"
-        },
-        {
-          "symbol": "Derived from adjective",
-          "offset": 0,
-          "pos": "adverb"
         }
       ],
       "senseCount": 1,
@@ -958,77 +958,6 @@
       "isComment": false
     }
   },
-  "aerology": {
-    "noun": {
-      "lemma": "aerology",
-      "pos": "noun",
-      "offsetCount": 1,
-      "offsets": [
-        6128833
-      ],
-      "offsetData": [],
-      "pointerCount": 2,
-      "pointers": [
-        {
-          "symbol": "Hypernym",
-          "offset": 0,
-          "pos": "noun"
-        },
-        {
-          "symbol": "Derivationally related form",
-          "offset": 0,
-          "pos": "noun"
-        }
-      ],
-      "senseCount": 1,
-      "tagSenseCount": 0,
-      "isComment": false
-    }
-  },
-  "afghan_hound": {
-    "noun": {
-      "lemma": "afghan_hound",
-      "pos": "noun",
-      "offsetCount": 1,
-      "offsets": [
-        2090746
-      ],
-      "offsetData": [],
-      "pointerCount": 1,
-      "pointers": [
-        {
-          "symbol": "Hypernym",
-          "offset": 0,
-          "pos": "noun"
-        }
-      ],
-      "senseCount": 1,
-      "tagSenseCount": 0,
-      "isComment": false
-    }
-  },
-  "alfalfa_sprout": {
-    "noun": {
-      "lemma": "alfalfa_sprout",
-      "pos": "noun",
-      "offsetCount": 1,
-      "offsets": [
-        7735501
-      ],
-      "offsetData": [],
-      "pointerCount": 1,
-      "pointers": [
-        {
-          "symbol": "Hypernym",
-          "offset": 0,
-          "pos": "noun"
-        }
-      ],
-      "senseCount": 1,
-      "tagSenseCount": 0,
-      "isComment": false
-    }
-  },
   "impatiently": {
     "adverb": {
       "lemma": "impatiently",
@@ -1259,6 +1188,77 @@
           "symbol": "Derived from adjective",
           "offset": 0,
           "pos": "adverb"
+        }
+      ],
+      "senseCount": 1,
+      "tagSenseCount": 0,
+      "isComment": false
+    }
+  },
+  "aerology": {
+    "noun": {
+      "lemma": "aerology",
+      "pos": "noun",
+      "offsetCount": 1,
+      "offsets": [
+        6128833
+      ],
+      "offsetData": [],
+      "pointerCount": 2,
+      "pointers": [
+        {
+          "symbol": "Hypernym",
+          "offset": 0,
+          "pos": "noun"
+        },
+        {
+          "symbol": "Derivationally related form",
+          "offset": 0,
+          "pos": "noun"
+        }
+      ],
+      "senseCount": 1,
+      "tagSenseCount": 0,
+      "isComment": false
+    }
+  },
+  "afghan_hound": {
+    "noun": {
+      "lemma": "afghan_hound",
+      "pos": "noun",
+      "offsetCount": 1,
+      "offsets": [
+        2090746
+      ],
+      "offsetData": [],
+      "pointerCount": 1,
+      "pointers": [
+        {
+          "symbol": "Hypernym",
+          "offset": 0,
+          "pos": "noun"
+        }
+      ],
+      "senseCount": 1,
+      "tagSenseCount": 0,
+      "isComment": false
+    }
+  },
+  "alfalfa_sprout": {
+    "noun": {
+      "lemma": "alfalfa_sprout",
+      "pos": "noun",
+      "offsetCount": 1,
+      "offsets": [
+        7735501
+      ],
+      "offsetData": [],
+      "pointerCount": 1,
+      "pointers": [
+        {
+          "symbol": "Hypernym",
+          "offset": 0,
+          "pos": "noun"
         }
       ],
       "senseCount": 1,
@@ -1858,6 +1858,148 @@
       "isComment": false
     }
   },
+  "sweet": {
+    "adverb": {
+      "lemma": "sweet",
+      "pos": "adverb",
+      "offsetCount": 1,
+      "offsets": [
+        474454
+      ],
+      "offsetData": [],
+      "pointerCount": 1,
+      "pointers": [],
+      "senseCount": 1,
+      "tagSenseCount": 1,
+      "isComment": false
+    },
+    "adjective": {
+      "lemma": "sweet",
+      "pos": "adjective",
+      "offsetCount": 10,
+      "offsets": [
+        2376904,
+        1462871,
+        1505500,
+        1813936,
+        1813678,
+        1056310,
+        2376172,
+        1077395,
+        2378651,
+        2346267
+      ],
+      "offsetData": [],
+      "pointerCount": 4,
+      "pointers": [
+        {
+          "symbol": "Antonym",
+          "offset": 0,
+          "pos": "adjective"
+        },
+        {
+          "symbol": "Similar to",
+          "offset": 0,
+          "pos": "adjective"
+        },
+        {
+          "symbol": "Also see",
+          "offset": 0,
+          "pos": "adjective"
+        }
+      ],
+      "senseCount": 10,
+      "tagSenseCount": 7,
+      "isComment": false
+    },
+    "noun": {
+      "lemma": "sweet",
+      "pos": "noun",
+      "offsetCount": 5,
+      "offsets": [
+        11346725,
+        7625449,
+        7612255,
+        5724524,
+        5001591
+      ],
+      "offsetData": [],
+      "pointerCount": 2,
+      "pointers": [
+        {
+          "symbol": "Hypernym",
+          "offset": 0,
+          "pos": "noun"
+        },
+        {
+          "symbol": "Hyponym",
+          "offset": 0,
+          "pos": "noun"
+        }
+      ],
+      "senseCount": 5,
+      "tagSenseCount": 0,
+      "isComment": false
+    }
+  },
+  "unthinkably": {
+    "adverb": {
+      "lemma": "unthinkably",
+      "pos": "adverb",
+      "offsetCount": 1,
+      "offsets": [
+        490485
+      ],
+      "offsetData": [],
+      "pointerCount": 1,
+      "pointers": [
+        {
+          "symbol": "Derived from adjective",
+          "offset": 0,
+          "pos": "adverb"
+        }
+      ],
+      "senseCount": 1,
+      "tagSenseCount": 0,
+      "isComment": false
+    }
+  },
+  "viva_voce": {
+    "adverb": {
+      "lemma": "viva_voce",
+      "pos": "adverb",
+      "offsetCount": 1,
+      "offsets": [
+        259598
+      ],
+      "offsetData": [],
+      "pointerCount": 0,
+      "pointers": [],
+      "senseCount": 1,
+      "tagSenseCount": 0,
+      "isComment": false
+    },
+    "noun": {
+      "lemma": "viva_voce",
+      "pos": "noun",
+      "offsetCount": 1,
+      "offsets": [
+        7213506
+      ],
+      "offsetData": [],
+      "pointerCount": 1,
+      "pointers": [
+        {
+          "symbol": "Hypernym",
+          "offset": 0,
+          "pos": "noun"
+        }
+      ],
+      "senseCount": 1,
+      "tagSenseCount": 0,
+      "isComment": false
+    }
+  },
   "american_badger": {
     "noun": {
       "lemma": "american_badger",
@@ -2113,148 +2255,6 @@
         },
         {
           "symbol": "Hyponym",
-          "offset": 0,
-          "pos": "noun"
-        }
-      ],
-      "senseCount": 1,
-      "tagSenseCount": 0,
-      "isComment": false
-    }
-  },
-  "sweet": {
-    "adverb": {
-      "lemma": "sweet",
-      "pos": "adverb",
-      "offsetCount": 1,
-      "offsets": [
-        474454
-      ],
-      "offsetData": [],
-      "pointerCount": 1,
-      "pointers": [],
-      "senseCount": 1,
-      "tagSenseCount": 1,
-      "isComment": false
-    },
-    "adjective": {
-      "lemma": "sweet",
-      "pos": "adjective",
-      "offsetCount": 10,
-      "offsets": [
-        2376904,
-        1462871,
-        1505500,
-        1813936,
-        1813678,
-        1056310,
-        2376172,
-        1077395,
-        2378651,
-        2346267
-      ],
-      "offsetData": [],
-      "pointerCount": 4,
-      "pointers": [
-        {
-          "symbol": "Antonym",
-          "offset": 0,
-          "pos": "adjective"
-        },
-        {
-          "symbol": "Similar to",
-          "offset": 0,
-          "pos": "adjective"
-        },
-        {
-          "symbol": "Also see",
-          "offset": 0,
-          "pos": "adjective"
-        }
-      ],
-      "senseCount": 10,
-      "tagSenseCount": 7,
-      "isComment": false
-    },
-    "noun": {
-      "lemma": "sweet",
-      "pos": "noun",
-      "offsetCount": 5,
-      "offsets": [
-        11346725,
-        7625449,
-        7612255,
-        5724524,
-        5001591
-      ],
-      "offsetData": [],
-      "pointerCount": 2,
-      "pointers": [
-        {
-          "symbol": "Hypernym",
-          "offset": 0,
-          "pos": "noun"
-        },
-        {
-          "symbol": "Hyponym",
-          "offset": 0,
-          "pos": "noun"
-        }
-      ],
-      "senseCount": 5,
-      "tagSenseCount": 0,
-      "isComment": false
-    }
-  },
-  "unthinkably": {
-    "adverb": {
-      "lemma": "unthinkably",
-      "pos": "adverb",
-      "offsetCount": 1,
-      "offsets": [
-        490485
-      ],
-      "offsetData": [],
-      "pointerCount": 1,
-      "pointers": [
-        {
-          "symbol": "Derived from adjective",
-          "offset": 0,
-          "pos": "adverb"
-        }
-      ],
-      "senseCount": 1,
-      "tagSenseCount": 0,
-      "isComment": false
-    }
-  },
-  "viva_voce": {
-    "adverb": {
-      "lemma": "viva_voce",
-      "pos": "adverb",
-      "offsetCount": 1,
-      "offsets": [
-        259598
-      ],
-      "offsetData": [],
-      "pointerCount": 0,
-      "pointers": [],
-      "senseCount": 1,
-      "tagSenseCount": 0,
-      "isComment": false
-    },
-    "noun": {
-      "lemma": "viva_voce",
-      "pos": "noun",
-      "offsetCount": 1,
-      "offsets": [
-        7213506
-      ],
-      "offsetData": [],
-      "pointerCount": 1,
-      "pointers": [
-        {
-          "symbol": "Hypernym",
           "offset": 0,
           "pos": "noun"
         }
