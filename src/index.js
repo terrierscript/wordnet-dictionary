@@ -14,6 +14,7 @@ module.exports = {
   searchIndex : (word) => {
     const dig = wordToDigest(word)
     const a = JSON.parse(fs.readFileSync(`dic/index/${dig}.json`).toString())
+    
     return a[word]
   },
   /**

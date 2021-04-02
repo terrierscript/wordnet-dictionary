@@ -9,6 +9,13 @@ const w2dg = (l) => {
   const k = digest.slice(0, 2)
   return k
 }
+const objectOrMapToObject = (item) => {
+  const itemEntries = item.entries
+    ? item.entries()
+    : Object.entries(item)
+  return Object.fromEntries(itemEntries)
+
+}
 const keysToSplitData = (dir, maps) => {
   fs.mkdirSync(dir, { recursive: true })
   const keys = Array.from(maps.keys())
@@ -19,13 +26,10 @@ const keysToSplitData = (dir, maps) => {
     digests[dig] = [...v, l]
   })
   Object.entries(digests).map(([dig, keys]) => {
-
     const items = keys.map(key => {
       const item = maps.get(key)
-      if (key === "lie") {
-        console.log(item)
-      }
-      return [key, item]
+      const items = objectOrMapToObject(item)
+      return [key, items]
     })
     const obj = Object.fromEntries(items)
     fs.writeFileSync(`${dir}/${dig}.json`, JSON.stringify(obj,null,2))

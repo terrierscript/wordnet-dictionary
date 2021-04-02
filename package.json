@@ -9,7 +9,8 @@
     "typescript": "^4.2.3"
   },
   "scripts": {
-    "generate": "ts-node --transpile-only generator/generate.ts"
+    "generate": "ts-node --transpile-only generator/generate.ts",
+    "test": "node test/index.test.js"
   },
   "dependencies": {
     "md5": "^2.3.0"
