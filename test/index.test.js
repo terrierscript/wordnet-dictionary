@@ -1,6 +1,6 @@
 
 const assert = require("assert")
-const { searchIndex, searchData } = require("../src/index")
+const { searchIndex, searchData } = require("../index")
 
 // searchIndex
 const result = searchIndex("lie")
