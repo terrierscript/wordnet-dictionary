@@ -44,7 +44,7 @@ const start = async () => {
   const dictionary = new Dictionary(wordnet.get("3.1"))
   await dictionary.init()
   keysToSplitData(`dic/data`, dictionary.database.dataOffsetIndex)
-  keysToSplitData(`dic/index`, dictionary.database.indexLemmaIndex)
+  // keysToSplitData(`dic/index`, dictionary.database.indexLemmaIndex)
 
 }
 
