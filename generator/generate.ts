@@ -30,7 +30,8 @@ const keysToSplitData = (dir, maps) => {
       const item = maps.get(key)
       const items = objectOrMapToObject(item)
       return [key, items]
-    }).sort((a, b) => a.key - b.key)
+    })
+      .sort((a, b) => a.key - b.key)
     const obj = Object.fromEntries(items)
     fs.writeFileSync(`${dir}/${dig}.json`, JSON.stringify(obj,null,2))
   })
