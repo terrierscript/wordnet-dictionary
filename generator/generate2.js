@@ -25,12 +25,6 @@ const file = "./english-wordnet-2020.xml"
 
 // fileStream.pipe(parser)
 
-const data = fs.readFileSync(file).toString()
-const obj = parser.parse(data, {
-  // attrNodeName: "attributes",
-  ignoreAttributes: false,
-  attributeNamePrefix : "",
-})
 const debug = (obj) => console.log(util.inspect(obj, { depth: Infinity, colors: true }))
 
 
@@ -49,10 +43,29 @@ const parseLexicalEntries = (lexs) => {
     const keyMap = allMap[key] ? allMap[key] : {}
     digests[dig] = { ...allMap, [key]: { ...keyMap, [lexId] : lex } }
   })
-  console.log(digests["00"])
+  const dir = "dic/lex"
+  fs.mkdirSync(dir, { recursive: true })
+
+  Object.entries(digests).map(([dig, obj]) => {
+    fs.writeFileSync(`${dir}/${dig}.json`, JSON.stringify(obj,null,2))
+  })
+
 }
 const parseSynset = (synset) => {
   debug(synset[0])
 }
-parseLexicalEntries(obj.LexicalResource.Lexicon.LexicalEntry)
-// parseSynset(obj.LexicalResource.Lexicon.Synset)
+
+
+const start = () => {
+
+  const data = fs.readFileSync(file).toString()
+  const obj = parser.parse(data, {
+    // attrNodeName: "attributes",
+    ignoreAttributes: false,
+    attributeNamePrefix : "",
+  })
+  parseLexicalEntries(obj.LexicalResource.Lexicon.LexicalEntry)
+  // parseSynset(obj.LexicalResource.Lexicon.Synset)
+}
+
+start()
