@@ -9,7 +9,7 @@ const wordToDigest = (l) => {
 }
 
 
-const file = "./english-wordnet-2020.xml"
+const file = "./generator/english-wordnet-2020.xml"
 // const htmlparser2 = require("htmlparser2");
 
 // const parser = new WritableStream({

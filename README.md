@@ -18,10 +18,10 @@ yarn run test
 
 ## API
 
-### searchIndex(word)
+### searchLexicalEntry(word)
 
 ```
-searchWord("lie)
+searchLexicalEntry("lie")
 ```
 
 ### searchData(offset)

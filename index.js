@@ -13,27 +13,6 @@ const getFile = (type, dig) => {
 }
 
 module.exports = {
-  /**
-   * 
-   * @param {string} word 
-   * @returns 
-   */
-  searchIndex : (word) => {
-    const dig = wordToDigest(word)
-    const json = getFile("index",dig)
-    return json[word]
-  },
-  /**
-   * 
-   * @param {string|number} offset
-   * @returns 
-   */
-  searchData : (offset) => {
-    const dig = wordToDigest(offset.toString())
-    const json = getFile("data",dig)
-    
-    return json[offset]
-  },
   searchLexicalEntry : (lemma) => {
     const dig = wordToDigest(lemma)
     const json = getFile("lex",dig)
