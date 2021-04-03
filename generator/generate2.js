@@ -51,6 +51,7 @@ const emp = (obj) => {
     Object.entries(obj)
       .map(([k, v]) => [k, v])
       .filter(([_, v]) => !(Array.isArray(v) && v.length === 0))
+      .filter(([_, v]) => !(v === null))
   )
 }
 const convertLex = (lex) => {
@@ -64,9 +65,9 @@ const convertLex = (lex) => {
   })
   return emp({
     ...rest,
-    Form: arr(Form),
-    Sense: newSense,
-    SyntacticBehaviour: arr(SyntacticBehaviour)
+    form: arr(Form),
+    sense: newSense,
+    syntacticBehaviour: arr(SyntacticBehaviour)
   })
 }
 
@@ -81,12 +82,13 @@ const generateLexicalEntries = (lexs) => {
 }
 
 const convertSynset = (syn) => {
-  const { SynsetRelation, Definition, Example, ...rest } = syn
+  const { SynsetRelation, Definition, Example, ILIDefinition, ...rest } = syn
   return emp({
     ...rest,
-    SynsetRelation: arr(SynsetRelation),
-    Definition: arr(Definition),
-    Example: arr(Example)
+    synsetRelation: arr(SynsetRelation),
+    definition: arr(Definition),
+    iliDefinition: ILIDefinition,
+    example: arr(Example)
   })
 }
 
