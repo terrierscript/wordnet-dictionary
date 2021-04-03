@@ -7,16 +7,14 @@
   "devDependencies": {
     "en-dictionary": "https://github.com/open-language/en-dictionary",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.3",
+    "fast-xml-parser": "^3.19.0"
   },
   "scripts": {
     "generate": "ts-node --transpile-only generator/generate.ts",
     "test": "node test/index.test.js"
   },
   "dependencies": {
-    "fast-xml-parser": "^3.19.0",
-    "htmlparser2": "^6.0.1",
-    "md5": "^2.3.0",
-    "xml": "^1.0.1"
+    "md5": "^2.3.0"
   }
 }
