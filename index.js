@@ -34,9 +34,21 @@ module.exports = {
     
     return json[offset]
   },
+  searchLexicalEntry : (lemma) => {
+    const dig = wordToDigest(lemma)
+    const json = getFile("lex",dig)
+    
+    return json[lemma]
+  },
+  searchSynset : (id) => {
+    const dig = wordToDigest(id)
+    const json = getFile("syn",dig)
+    
+    return json[id]
+  },
   getRandomWord: () => {
     const dig = `${(Math.floor(Math.random() * 16) ).toString(16)}${(Math.floor(Math.random() * 16) ).toString(16)}`
-    const json = getFile("index",dig)
+    const json = getFile("lex",dig)
     const words = Object.keys(json)
     const rand = Math.floor(Math.random() * words.length)
     return words[rand]
