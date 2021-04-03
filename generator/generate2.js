@@ -32,27 +32,45 @@ const parseLexicalEntries = (lexs) => {
   const digests = {}
   lexs.map(lex => {
     const key = lex.Lemma.writtenForm
-    // console.log("l",lex,key)
     const lexId = lex.id
     const dig = wordToDigest(key)
-    // digests[dig]
-    // = digests[dig]
     const allMap = digests[dig] ? digests[dig] : {}
-
-    // init
     const keyMap = allMap[key] ? allMap[key] : {}
-    digests[dig] = { ...allMap, [key]: { ...keyMap, [lexId] : lex } }
+    // if (digests[dig][key][lexId]) {
+      
+    // }
+    digests[dig] = { ...allMap, [key]: { ...keyMap, [lexId]: lex } }
   })
   const dir = "dic/lex"
   fs.mkdirSync(dir, { recursive: true })
-
+  
   Object.entries(digests).map(([dig, obj]) => {
     fs.writeFileSync(`${dir}/${dig}.json`, JSON.stringify(obj,null,2))
   })
 
 }
-const parseSynset = (synset) => {
-  debug(synset[0])
+const parseSynset = (synsets) => {
+  const digests = {}
+  synsets.map(s => {
+    const id = s.id
+    const dig = wordToDigest(id)
+    const allMap = digests[dig] ? digests[dig] : {}
+    // if ((digests[dig])?[id]) {
+    //   throw new Error("synset id duplicate error")
+    // }
+    digests[dig] = {
+      ...allMap,
+      [id]: s
+    }  
+  })
+
+  const dir = "dic/syn"
+  fs.mkdirSync(dir, { recursive: true })
+  
+  Object.entries(digests).map(([dig, obj]) => {
+    fs.writeFileSync(`${dir}/${dig}.json`, JSON.stringify(obj,null,2))
+  })
+
 }
 
 
@@ -64,8 +82,8 @@ const start = () => {
     ignoreAttributes: false,
     attributeNamePrefix : "",
   })
-  parseLexicalEntries(obj.LexicalResource.Lexicon.LexicalEntry)
-  // parseSynset(obj.LexicalResource.Lexicon.Synset)
+  // parseLexicalEntries(obj.LexicalResource.Lexicon.LexicalEntry)
+  parseSynset(obj.LexicalResource.Lexicon.Synset)
 }
 
 start()
