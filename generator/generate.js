@@ -1,7 +1,5 @@
 const fs = require("fs")
-const path = require("path")
-const util = require("util")
-
+const generateSource = require("./source")
 const md5 = require("md5")
 
 const wordToDigest = (l) => {
@@ -118,8 +116,9 @@ const generateDataFiles = (lex,syn) => {
   console.log("end")
 }
 const start = () => {
-  const lex = require("../source/lex")
-  const syn = require("../source/syn")
+  const {lex, syn} = generateSource()
+  // const lex = require("../source/lex")
+  // const syn = require("../source/syn")
   generateDataFiles(lex,syn)
   // generateLexIndex()
 }

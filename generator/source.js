@@ -13,6 +13,7 @@ const emp = (obj) => {
       .filter(([_, v]) => !(v === null))
   )
 }
+
 const convertLex = (lex) => {
   const { Lemma, Sense, Form,SyntacticBehaviour, ...rest } = lex
   const newSense = arr(Sense).map(sense => {
@@ -66,16 +67,19 @@ const generateSource = () => {
     ignoreAttributes: false,
     attributeNamePrefix : "",
   })
-  console.log("lex")
-  fs.writeFileSync(path.join(sourceDir, "lex.json"), JSON.stringify(
-    generateLexicalEntries(obj.LexicalResource.Lexicon.LexicalEntry)
-  , null, 2))
-  console.log("syn")
-  fs.writeFileSync(path.join(sourceDir, "syn.json"), JSON.stringify(
-    generateSynset(obj.LexicalResource.Lexicon.Synset)
-  , null, 2))
+  const lex = generateLexicalEntries(obj.LexicalResource.Lexicon.LexicalEntry)
+  const syn = generateSynset(obj.LexicalResource.Lexicon.Synset)
+  console.log("end")
+  return {lex, syn}
+  //   generateLexicalEntries(obj.LexicalResource.Lexicon.LexicalEntry)
+  // console.log("lex")
+  // fs.writeFileSync(path.join(sourceDir, "lex.json"), JSON.stringify(
+  // , null, 2))
+  // console.log("syn")
+  // fs.writeFileSync(path.join(sourceDir, "syn.json"), JSON.stringify(
+  // , null, 2))
   // generateLexicalEntriesSource(obj.LexicalResource.Lexicon.LexicalEntry)
   // generateSynsetSource(obj.LexicalResource.Lexicon.Synset)
 }
 
-generateSource()
+module.exports = generateSource
