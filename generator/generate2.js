@@ -45,12 +45,18 @@ const saveDigests = (dir, digests) => {
 
 const debug = (obj) => console.log(util.inspect(obj, { depth: Infinity, colors: true }))
 
-
+const convertLex = (lex) => {
+  console.log(lex)
+  return {
+    ...lex,
+    Sense: [lex.Sense].flat()
+  }
+}
 const generateLexicalEntries = (lexs) => {
 
   const entries = lexs.map(lex => {
     const lexId = lex.id
-    return [lex.id, lex]
+    return [lexId, convertLex(lex)]
   })
   const dir = "dic/lex"
   const digs = itemsToDigests(Object.fromEntries(entries))
