@@ -49,7 +49,6 @@ console.log(
     ])
   ?? "✅ searchLexicalEntry sense"
 )
-console.log(require("util").inspect(lex, {depth: Infinity, color:true}))
 
 const synset = searchSynset('ewn-02696550-v')
 console.log(
