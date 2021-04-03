@@ -7,8 +7,9 @@ const wordToDigest = (l) => {
 }
 
 const getFile = (type, dig) => {
-  const filepath = path.join(__dirname ,"dic",type, `${dig}.json`)
-  return JSON.parse(fs.readFileSync(filepath).toString())
+  // const filepath = path.join(__dirname, "dic", type, `${dig}.json`)
+  return require(`./dic/${type}/${dig}.json`)
+  // return JSON.parse(fs.readFileSync(filepath).toString())
   
 }
 
