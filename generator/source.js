@@ -56,7 +56,7 @@ const generateSynset = (synsets) => {
 }
 
 const generateSource = () => {
-  const sourceDir ="source"
+  const sourceDir = "source"
   fs.mkdirSync(sourceDir, { recursive: true })
   
   const data = fs.readFileSync(file).toString()
@@ -65,21 +65,14 @@ const generateSource = () => {
     // attrNodeName: "attributes",
     // arrayMode: "strict",
     ignoreAttributes: false,
-    attributeNamePrefix : "",
+    attributeNamePrefix: "",
   })
+  console.log("lex")
   const lex = generateLexicalEntries(obj.LexicalResource.Lexicon.LexicalEntry)
+  console.log("syn")
   const syn = generateSynset(obj.LexicalResource.Lexicon.Synset)
   console.log("end")
-  return {lex, syn}
-  //   generateLexicalEntries(obj.LexicalResource.Lexicon.LexicalEntry)
-  // console.log("lex")
-  // fs.writeFileSync(path.join(sourceDir, "lex.json"), JSON.stringify(
-  // , null, 2))
-  // console.log("syn")
-  // fs.writeFileSync(path.join(sourceDir, "syn.json"), JSON.stringify(
-  // , null, 2))
-  // generateLexicalEntriesSource(obj.LexicalResource.Lexicon.LexicalEntry)
-  // generateSynsetSource(obj.LexicalResource.Lexicon.Synset)
+  return { lex, syn }
 }
 
 module.exports = generateSource
