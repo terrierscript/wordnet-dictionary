@@ -153,11 +153,11 @@ const generateSenseMembers = () => {
 const generateDataFiles = () => {
   console.log("start")
 
-  // console.log("1")
-  // const lex = require("../source/lex")
-  // generateLexicalEntries(lex)
+  console.log("lex")
+  const lex = require("../source/lex")
+  generateLexicalEntries(lex)
 
-  console.log("2")
+  console.log("syn")
   const syn = require("../source/syn")
   generateSynset(syn)
 
