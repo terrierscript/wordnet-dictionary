@@ -17,30 +17,27 @@ const itemsToDigests = (obj) => {
     digests.get(dig).set(key, value)
   })
   return Object.fromEntries(
-    Object.entries(digests).map(([k, v]) => {
+    [...digests.entries()].map(([k, v]) => {
       return [k, Object.fromEntries(v)]
     })
   )
-  // return mapToObj(digests)
 }
 
 const saveDigests = (dir, digests) => {
-  fs.mkdirSync(dir, {recursive:true})
+  fs.mkdirSync(dir, { recursive: true })
   Object.entries(digests).map(([dig, obj]) => {
     fs.writeFileSync(`${dir}/${dig}.json`, JSON.stringify(obj,null,2))
   })
 }
 
-const debug = (obj) => console.log(util.inspect(obj, { depth: Infinity, colors: true }))
-
-
-const splitDigest = (items,dir) => {
-  const entries = items.map(item => {
-    return [item.id, item]
-  })
-  const digs = itemsToDigests(Object.fromEntries(entries))
-  saveDigests(dir, digs)
-}
+// const debug = (obj) => console.log(util.inspect(obj, { depth: Infinity, colors: true }))
+// const splitDigest = (items,dir) => {
+//   const entries = items.map(item => {
+//     return [item.id, item]
+//   })
+//   const digs = itemsToDigests(Object.fromEntries(entries))
+//   saveDigests(dir, digs)
+// }
 
 const splitDigestObj = (obj, dir) => {
   const digs = itemsToDigests(obj)
@@ -115,7 +112,7 @@ const generateDataFiles = (lex,syn) => {
   
   console.log("syn")
   const s = structSyn(syn, synsetMap, lexMap)
-  console.log(s)
+  // console.log(s)
   splitDigestObj(s, "dic/syn")
   
   console.log("end")
