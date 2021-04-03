@@ -95,7 +95,7 @@ const structSyn = (syn, synsetMap,lexMap) => {
       const synset = synsetMap.get(s.id)
       const lex = synset.map(ss => lexMap.get(ss))
       const members = lex.map( l => l.lemma.writtenForm)
-      console.log(s.id, members)
+      // console.log(s.id, members)
       return [s.id, { ...s, members }]
     })
   )
@@ -115,7 +115,7 @@ const generateDataFiles = (lex,syn) => {
   
   console.log("syn")
   const s = structSyn(syn, synsetMap, lexMap)
-  // console.log(s)
+  console.log(s)
   splitDigestObj(s, "dic/syn")
   
   console.log("end")
