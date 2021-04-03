@@ -60,10 +60,11 @@ const generateLexicalEntries = (lexs) => {
 const generateSynset = (synsets) => {
   const digests = {}
   const entries = synsets.map(syn => {
-    const id = s.id
+    const id = syn.id
     return [id, syn]
   })
-
+  
+  const dir = "dic/syn"
   const digs = itemsToDigests(Object.fromEntries(entries))
   saveDigests(dir, digs)
 
@@ -119,11 +120,15 @@ const generateSenseMembers = () => {
 
 const generateDataFiles = () => {
   console.log("start")
-  const lex = require("../source/lex")
+
   console.log("1")
-  // generateLexicalEntries(lex)
+  const lex = require("../source/lex")
+  generateLexicalEntries(lex)
+
   console.log("2")
-  generateSynset(lex)
+  const syn = require("../source/syn")
+  generateSynset(syn)
+
   console.log("3")
 }
 const start = () => {
