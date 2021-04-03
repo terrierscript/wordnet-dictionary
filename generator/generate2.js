@@ -69,6 +69,7 @@ const convertLex = (lex) => {
     SyntacticBehaviour: arr(SyntacticBehaviour)
   })
 }
+
 const generateLexicalEntries = (lexs) => {
   const entries = lexs.map(lex => {
     const lexId = lex.id
@@ -78,6 +79,7 @@ const generateLexicalEntries = (lexs) => {
   const digs = itemsToDigests(Object.fromEntries(entries))
   saveDigests(dir, digs)
 }
+
 const convertSynset = (syn) => {
   const { SynsetRelation, Definition, Example, ...rest } = syn
   return emp({
@@ -89,16 +91,13 @@ const convertSynset = (syn) => {
 }
 
 const generateSynset = (synsets) => {
-  const digests = {}
   const entries = synsets.map(syn => {
     const id = syn.id
     return [id, convertSynset(syn)]
   })
-  
   const dir = "dic/syn"
   const digs = itemsToDigests(Object.fromEntries(entries))
   saveDigests(dir, digs)
-
 }
 
 
