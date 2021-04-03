@@ -85,9 +85,9 @@ const convertSynset = (syn) => {
   const { SynsetRelation, Definition, Example, ILIDefinition, ...rest } = syn
   return emp({
     ...rest,
+    iliDefinition: ILIDefinition,
     synsetRelation: arr(SynsetRelation),
     definition: arr(Definition),
-    iliDefinition: ILIDefinition,
     example: arr(Example)
   })
 }
