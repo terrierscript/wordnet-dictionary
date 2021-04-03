@@ -1331,16 +1331,6 @@
       "partOfSpeech": "v",
       "writtenForm": "slay"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-slay-v-90008852-01",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-slay-v-02488014-02",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      }
-    ],
     "Form": [
       {
         "writtenForm": "slain"
@@ -1370,6 +1360,16 @@
         "synset": "ewn-90008852-v",
         "dc:identifier": "slay%2:41:01::"
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-slay-v-90008852-01",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-slay-v-02488014-02",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      }
     ]
   },
   "ewn-dispose_of-v": {
@@ -1378,15 +1378,17 @@
       "partOfSpeech": "v",
       "writtenForm": "dispose of"
     },
-    "SyntacticBehaviour": {
-      "senses": "ewn-dispose_of-v-02442187-01",
-      "subcategorizationFrame": "Somebody ----s something"
-    },
     "Sense": [
       {
         "id": "ewn-dispose_of-v-02442187-01",
         "synset": "ewn-02442187-v",
         "dc:identifier": "dispose_of%2:41:00::"
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-dispose_of-v-02442187-01",
+        "subcategorizationFrame": "Somebody ----s something"
       }
     ]
   },
@@ -1396,20 +1398,6 @@
       "partOfSpeech": "v",
       "writtenForm": "get at"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-get_at-v-01791774-05",
-        "subcategorizationFrame": "Something ----s somebody"
-      },
-      {
-        "senses": "ewn-get_at-v-02011431-02",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-get_at-v-02592463-01 ewn-get_at-v-01791774-05",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-get_at-v-02011431-02",
@@ -1426,6 +1414,20 @@
         "synset": "ewn-01791774-v",
         "dc:identifier": "get_at%2:37:00::"
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-get_at-v-01791774-05",
+        "subcategorizationFrame": "Something ----s somebody"
+      },
+      {
+        "senses": "ewn-get_at-v-02011431-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-get_at-v-02592463-01 ewn-get_at-v-01791774-05",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      }
     ]
   },
   "ewn-misbehave-v": {
@@ -1434,16 +1436,6 @@
       "partOfSpeech": "v",
       "writtenForm": "misbehave"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-misbehave-v-02522868-01",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-misbehave-v-02522868-01",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-misbehave-v-02522868-01",
@@ -1460,6 +1452,16 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-misbehave-v-02522868-01",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-misbehave-v-02522868-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      }
     ]
   },
   "ewn-reserve-v": {
@@ -1468,20 +1470,6 @@
       "partOfSpeech": "v",
       "writtenForm": "reserve"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-reserve-v-00726112-05",
-        "subcategorizationFrame": "Somebody ----s something to somebody"
-      },
-      {
-        "senses": "ewn-reserve-v-00797294-01",
-        "subcategorizationFrame": "Somebody ----s somebody something"
-      },
-      {
-        "senses": "ewn-reserve-v-02503969-01 ewn-reserve-v-02219267-01 ewn-reserve-v-00797294-01 ewn-reserve-v-00726112-05",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-reserve-v-02219267-01",
@@ -1539,6 +1527,20 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-reserve-v-00726112-05",
+        "subcategorizationFrame": "Somebody ----s something to somebody"
+      },
+      {
+        "senses": "ewn-reserve-v-00797294-01",
+        "subcategorizationFrame": "Somebody ----s somebody something"
+      },
+      {
+        "senses": "ewn-reserve-v-02503969-01 ewn-reserve-v-02219267-01 ewn-reserve-v-00797294-01 ewn-reserve-v-00726112-05",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-take_office-v": {
@@ -1546,10 +1548,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "take office"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-take_office-v-02388984-01",
-      "subcategorizationFrame": "Somebody ----s"
     },
     "Sense": [
       {
@@ -1563,6 +1561,12 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-take_office-v-02388984-01",
+        "subcategorizationFrame": "Somebody ----s"
+      }
     ]
   },
   "ewn-continue-v": {
@@ -1571,44 +1575,6 @@
       "partOfSpeech": "v",
       "writtenForm": "continue"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-continue-v-00783045-01",
-        "subcategorizationFrame": "Somebody ----s to INFINITIVE"
-      },
-      {
-        "senses": "ewn-continue-v-02733337-03 ewn-continue-v-02753584-01 ewn-continue-v-02690747-01 ewn-continue-v-00783045-01 ewn-continue-v-01999581-03",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-continue-v-02685709-01 ewn-continue-v-02753797-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-continue-v-02690747-01 ewn-continue-v-02753584-01 ewn-continue-v-01999581-03 ewn-continue-v-00118331-01",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-continue-v-02690747-01 ewn-continue-v-00783045-01",
-        "subcategorizationFrame": "Somebody ----s VERB-ing"
-      },
-      {
-        "senses": "ewn-continue-v-02733337-03",
-        "subcategorizationFrame": "Somebody ----s PP"
-      },
-      {
-        "senses": "ewn-continue-v-02685709-01 ewn-continue-v-02693758-02 ewn-continue-v-02753797-01",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-continue-v-02415305-02",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      },
-      {
-        "senses": "ewn-continue-v-02415305-02",
-        "subcategorizationFrame": "Something ----s somebody"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-continue-v-02690747-01",
@@ -1738,6 +1704,44 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-continue-v-00783045-01",
+        "subcategorizationFrame": "Somebody ----s to INFINITIVE"
+      },
+      {
+        "senses": "ewn-continue-v-02733337-03 ewn-continue-v-02753584-01 ewn-continue-v-02690747-01 ewn-continue-v-00783045-01 ewn-continue-v-01999581-03",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-continue-v-02685709-01 ewn-continue-v-02753797-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-continue-v-02690747-01 ewn-continue-v-02753584-01 ewn-continue-v-01999581-03 ewn-continue-v-00118331-01",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-continue-v-02690747-01 ewn-continue-v-00783045-01",
+        "subcategorizationFrame": "Somebody ----s VERB-ing"
+      },
+      {
+        "senses": "ewn-continue-v-02733337-03",
+        "subcategorizationFrame": "Somebody ----s PP"
+      },
+      {
+        "senses": "ewn-continue-v-02685709-01 ewn-continue-v-02693758-02 ewn-continue-v-02753797-01",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-continue-v-02415305-02",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      },
+      {
+        "senses": "ewn-continue-v-02415305-02",
+        "subcategorizationFrame": "Something ----s somebody"
+      }
     ]
   },
   "ewn-friendzone-v": {
@@ -1746,15 +1750,17 @@
       "partOfSpeech": "v",
       "writtenForm": "friendzone"
     },
-    "SyntacticBehaviour": {
-      "senses": "ewn-friendzone-v-90012511-01",
-      "subcategorizationFrame": "Somebody ----s somebody"
-    },
     "Sense": [
       {
         "id": "ewn-friendzone-v-90012511-01",
         "synset": "ewn-90012511-v",
         "dc:identifier": "friendzone%2:41:01::"
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-friendzone-v-90012511-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
       }
     ]
   },
@@ -1764,24 +1770,6 @@
       "partOfSpeech": "v",
       "writtenForm": "secure"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-secure-v-01343121-03",
-        "subcategorizationFrame": "Somebody ----s something PP"
-      },
-      {
-        "senses": "ewn-secure-v-02354702-01 ewn-secure-v-00892111-05 ewn-secure-v-01343121-03 ewn-secure-v-01425540-03",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-secure-v-02243552-02",
-        "subcategorizationFrame": "Somebody ----s something from somebody"
-      },
-      {
-        "senses": "ewn-secure-v-02243552-02 ewn-secure-v-02354702-01 ewn-secure-v-01309085-03 ewn-secure-v-01343121-03 ewn-secure-v-01425540-03",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-secure-v-02243552-02",
@@ -1819,6 +1807,24 @@
         "synset": "ewn-01309085-v",
         "dc:identifier": "secure%2:35:03::"
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-secure-v-01343121-03",
+        "subcategorizationFrame": "Somebody ----s something PP"
+      },
+      {
+        "senses": "ewn-secure-v-02354702-01 ewn-secure-v-00892111-05 ewn-secure-v-01343121-03 ewn-secure-v-01425540-03",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-secure-v-02243552-02",
+        "subcategorizationFrame": "Somebody ----s something from somebody"
+      },
+      {
+        "senses": "ewn-secure-v-02243552-02 ewn-secure-v-02354702-01 ewn-secure-v-01309085-03 ewn-secure-v-01343121-03 ewn-secure-v-01425540-03",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-chaffer-v": {
@@ -1827,16 +1833,6 @@
       "partOfSpeech": "v",
       "writtenForm": "chaffer"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-chaffer-v-02264354-03 ewn-chaffer-v-01040538-09",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-chaffer-v-02264354-03",
-        "subcategorizationFrame": "Somebody ----s PP"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-chaffer-v-02264354-03",
@@ -1848,6 +1844,16 @@
         "synset": "ewn-01040538-v",
         "dc:identifier": "chaffer%2:32:00::"
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-chaffer-v-02264354-03 ewn-chaffer-v-01040538-09",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-chaffer-v-02264354-03",
+        "subcategorizationFrame": "Somebody ----s PP"
+      }
     ]
   },
   "ewn-come_up-v": {
@@ -1856,32 +1862,6 @@
       "partOfSpeech": "v",
       "writtenForm": "come up"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-come_up-v-01853188-02",
-        "subcategorizationFrame": "Something is ----ing PP"
-      },
-      {
-        "senses": "ewn-come_up-v-02727715-01 ewn-come_up-v-01853188-02 ewn-come_up-v-01972576-06 ewn-come_up-v-01994295-02",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-come_up-v-02631867-02 ewn-come_up-v-02727715-01 ewn-come_up-v-01853188-02 ewn-come_up-v-01972576-06 ewn-come_up-v-01974362-02 ewn-come_up-v-01994295-02 ewn-come_up-v-01529393-02 ewn-come_up-v-00340548-02",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-come_up-v-02218118-03",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      },
-      {
-        "senses": "ewn-come_up-v-02218118-03 ewn-come_up-v-01384203-04 ewn-come_up-v-01387406-04 ewn-come_up-v-01630816-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-come_up-v-02218118-03 ewn-come_up-v-01853188-02 ewn-come_up-v-01384203-04 ewn-come_up-v-01387406-04",
-        "subcategorizationFrame": "Somebody ----s PP"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-come_up-v-01630816-01",
@@ -1955,6 +1935,32 @@
         "synset": "ewn-01384203-v",
         "dc:identifier": "come_up%2:35:01::"
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-come_up-v-01853188-02",
+        "subcategorizationFrame": "Something is ----ing PP"
+      },
+      {
+        "senses": "ewn-come_up-v-02727715-01 ewn-come_up-v-01853188-02 ewn-come_up-v-01972576-06 ewn-come_up-v-01994295-02",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-come_up-v-02631867-02 ewn-come_up-v-02727715-01 ewn-come_up-v-01853188-02 ewn-come_up-v-01972576-06 ewn-come_up-v-01974362-02 ewn-come_up-v-01994295-02 ewn-come_up-v-01529393-02 ewn-come_up-v-00340548-02",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-come_up-v-02218118-03",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      },
+      {
+        "senses": "ewn-come_up-v-02218118-03 ewn-come_up-v-01384203-04 ewn-come_up-v-01387406-04 ewn-come_up-v-01630816-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-come_up-v-02218118-03 ewn-come_up-v-01853188-02 ewn-come_up-v-01384203-04 ewn-come_up-v-01387406-04",
+        "subcategorizationFrame": "Somebody ----s PP"
+      }
     ]
   },
   "ewn-degrease-v": {
@@ -1963,15 +1969,17 @@
       "partOfSpeech": "v",
       "writtenForm": "degrease"
     },
-    "SyntacticBehaviour": {
-      "senses": "ewn-degrease-v-02369667-01",
-      "subcategorizationFrame": "Somebody ----s something"
-    },
     "Sense": [
       {
         "id": "ewn-degrease-v-02369667-01",
         "synset": "ewn-02369667-v",
         "dc:identifier": "degrease%2:40:00::"
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-degrease-v-02369667-01",
+        "subcategorizationFrame": "Somebody ----s something"
       }
     ]
   },
@@ -1980,10 +1988,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "causeway"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-causeway-v-02340900-01 ewn-causeway-v-01270306-01",
-      "subcategorizationFrame": "Somebody ----s something"
     },
     "Sense": [
       {
@@ -2002,6 +2006,12 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-causeway-v-02340900-01 ewn-causeway-v-01270306-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-corbel-v": {
@@ -2009,10 +2019,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "corbel"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-corbel-v-02357820-01",
-      "subcategorizationFrame": "Somebody ----s something"
     },
     "Sense": [
       {
@@ -2025,6 +2031,12 @@
             "target": "ewn-corbel-n-03110118-01"
           }
         ]
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-corbel-v-02357820-01",
+        "subcategorizationFrame": "Somebody ----s something"
       }
     ]
   },
@@ -2370,28 +2382,6 @@
       "partOfSpeech": "v",
       "writtenForm": "say"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-say-v-00748704-04 ewn-say-v-00919271-02 ewn-say-v-01011267-02 ewn-say-v-01011848-01 ewn-say-v-01018011-03",
-        "subcategorizationFrame": "Somebody ----s that CLAUSE"
-      },
-      {
-        "senses": "ewn-say-v-00919271-02 ewn-say-v-00930921-01 ewn-say-v-00947531-01 ewn-say-v-00980581-06 ewn-say-v-00981902-01 ewn-say-v-01011267-02 ewn-say-v-01018011-03",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-say-v-00748704-04",
-        "subcategorizationFrame": "Somebody ----s somebody to INFINITIVE"
-      },
-      {
-        "senses": "ewn-say-v-02736688-02",
-        "subcategorizationFrame": "Something ----s Adjective/Noun"
-      },
-      {
-        "senses": "ewn-say-v-02736688-02 ewn-say-v-00925168-01 ewn-say-v-00930921-01 ewn-say-v-01011267-02 ewn-say-v-01018011-03",
-        "subcategorizationFrame": "Something ----s something"
-      }
-    ],
     "Form": [
       {
         "writtenForm": "said"
@@ -2476,6 +2466,28 @@
         "id": "ewn-say-v-00925168-01",
         "synset": "ewn-00925168-v",
         "dc:identifier": "say%2:32:09::"
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-say-v-00748704-04 ewn-say-v-00919271-02 ewn-say-v-01011267-02 ewn-say-v-01011848-01 ewn-say-v-01018011-03",
+        "subcategorizationFrame": "Somebody ----s that CLAUSE"
+      },
+      {
+        "senses": "ewn-say-v-00919271-02 ewn-say-v-00930921-01 ewn-say-v-00947531-01 ewn-say-v-00980581-06 ewn-say-v-00981902-01 ewn-say-v-01011267-02 ewn-say-v-01018011-03",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-say-v-00748704-04",
+        "subcategorizationFrame": "Somebody ----s somebody to INFINITIVE"
+      },
+      {
+        "senses": "ewn-say-v-02736688-02",
+        "subcategorizationFrame": "Something ----s Adjective/Noun"
+      },
+      {
+        "senses": "ewn-say-v-02736688-02 ewn-say-v-00925168-01 ewn-say-v-00930921-01 ewn-say-v-01011267-02 ewn-say-v-01018011-03",
+        "subcategorizationFrame": "Something ----s something"
       }
     ]
   },
@@ -5113,6 +5125,13 @@
       "partOfSpeech": "v",
       "writtenForm": "beat around the bush"
     },
+    "Sense": [
+      {
+        "id": "ewn-beat_around_the_bush-v-00837185-01",
+        "synset": "ewn-00837185-v",
+        "dc:identifier": "beat_around_the_bush%2:32:00::"
+      }
+    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-beat_around_the_bush-v-00837185-01",
@@ -5122,13 +5141,6 @@
         "senses": "ewn-beat_around_the_bush-v-00837185-01",
         "subcategorizationFrame": "Somebody ----s PP"
       }
-    ],
-    "Sense": [
-      {
-        "id": "ewn-beat_around_the_bush-v-00837185-01",
-        "synset": "ewn-00837185-v",
-        "dc:identifier": "beat_around_the_bush%2:32:00::"
-      }
     ]
   },
   "ewn-soliloquize-v": {
@@ -5136,10 +5148,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "soliloquize"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-soliloquize-v-00966510-03",
-      "subcategorizationFrame": "Somebody ----s"
     },
     "Sense": [
       {
@@ -5157,6 +5165,12 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-soliloquize-v-00966510-03",
+        "subcategorizationFrame": "Somebody ----s"
+      }
     ]
   },
   "ewn-popularise-v": {
@@ -5164,10 +5178,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "popularise"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-popularise-v-00972247-02 ewn-popularise-v-00579585-02",
-      "subcategorizationFrame": "Somebody ----s something"
     },
     "Sense": [
       {
@@ -5196,6 +5206,12 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-popularise-v-00972247-02 ewn-popularise-v-00579585-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-comment-v": {
@@ -5204,24 +5220,6 @@
       "partOfSpeech": "v",
       "writtenForm": "comment"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-comment-v-01060446-01",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-comment-v-01060446-01",
-        "subcategorizationFrame": "Somebody ----s that CLAUSE"
-      },
-      {
-        "senses": "ewn-comment-v-01035061-01",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-comment-v-00963361-02 ewn-comment-v-01035061-01 ewn-comment-v-01060446-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-comment-v-01060446-01",
@@ -5260,6 +5258,24 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-comment-v-01060446-01",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-comment-v-01060446-01",
+        "subcategorizationFrame": "Somebody ----s that CLAUSE"
+      },
+      {
+        "senses": "ewn-comment-v-01035061-01",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-comment-v-00963361-02 ewn-comment-v-01035061-01 ewn-comment-v-01060446-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-cock_up-v": {
@@ -5268,6 +5284,13 @@
       "partOfSpeech": "v",
       "writtenForm": "cock up"
     },
+    "Sense": [
+      {
+        "id": "ewn-cock_up-v-01987020-03",
+        "synset": "ewn-01987020-v",
+        "dc:identifier": "cock_up%2:38:00::"
+      }
+    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-cock_up-v-01987020-03",
@@ -5277,13 +5300,6 @@
         "senses": "ewn-cock_up-v-01987020-03",
         "subcategorizationFrame": "Somebody ----s something"
       }
-    ],
-    "Sense": [
-      {
-        "id": "ewn-cock_up-v-01987020-03",
-        "synset": "ewn-01987020-v",
-        "dc:identifier": "cock_up%2:38:00::"
-      }
     ]
   },
   "ewn-pronate-v": {
@@ -5291,10 +5307,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "pronate"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-pronate-v-02085657-01",
-      "subcategorizationFrame": "Somebody ----s"
     },
     "Sense": [
       {
@@ -5312,6 +5324,12 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-pronate-v-02085657-01",
+        "subcategorizationFrame": "Somebody ----s"
+      }
     ]
   },
   "ewn-wreathe-v": {
@@ -5320,6 +5338,23 @@
       "partOfSpeech": "v",
       "writtenForm": "wreathe"
     },
+    "Sense": [
+      {
+        "id": "ewn-wreathe-v-01872892-01",
+        "synset": "ewn-01872892-v",
+        "dc:identifier": "wreathe%2:38:00::"
+      },
+      {
+        "id": "ewn-wreathe-v-01519687-01",
+        "synset": "ewn-01519687-v",
+        "dc:identifier": "wreathe%2:35:01::"
+      },
+      {
+        "id": "ewn-wreathe-v-01519597-01",
+        "synset": "ewn-01519597-v",
+        "dc:identifier": "wreathe%2:35:00::"
+      }
+    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-wreathe-v-01519597-01 ewn-wreathe-v-01519687-01",
@@ -5341,23 +5376,6 @@
         "senses": "ewn-wreathe-v-01872892-01",
         "subcategorizationFrame": "Something ----s"
       }
-    ],
-    "Sense": [
-      {
-        "id": "ewn-wreathe-v-01872892-01",
-        "synset": "ewn-01872892-v",
-        "dc:identifier": "wreathe%2:38:00::"
-      },
-      {
-        "id": "ewn-wreathe-v-01519687-01",
-        "synset": "ewn-01519687-v",
-        "dc:identifier": "wreathe%2:35:01::"
-      },
-      {
-        "id": "ewn-wreathe-v-01519597-01",
-        "synset": "ewn-01519597-v",
-        "dc:identifier": "wreathe%2:35:00::"
-      }
     ]
   },
   "ewn-flump_down-v": {
@@ -5366,6 +5384,13 @@
       "partOfSpeech": "v",
       "writtenForm": "flump down"
     },
+    "Sense": [
+      {
+        "id": "ewn-flump_down-v-01982354-02",
+        "synset": "ewn-01982354-v",
+        "dc:identifier": "flump_down%2:38:00::"
+      }
+    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-flump_down-v-01982354-02",
@@ -5375,13 +5400,6 @@
         "senses": "ewn-flump_down-v-01982354-02",
         "subcategorizationFrame": "Something is ----ing PP"
       }
-    ],
-    "Sense": [
-      {
-        "id": "ewn-flump_down-v-01982354-02",
-        "synset": "ewn-01982354-v",
-        "dc:identifier": "flump_down%2:38:00::"
-      }
     ]
   },
   "ewn-cascade_down-v": {
@@ -5390,15 +5408,17 @@
       "partOfSpeech": "v",
       "writtenForm": "cascade down"
     },
-    "SyntacticBehaviour": {
-      "senses": "ewn-cascade_down-v-02075244-02",
-      "subcategorizationFrame": "Something ----s"
-    },
     "Sense": [
       {
         "id": "ewn-cascade_down-v-02075244-02",
         "synset": "ewn-02075244-v",
         "dc:identifier": "cascade_down%2:38:00::"
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-cascade_down-v-02075244-02",
+        "subcategorizationFrame": "Something ----s"
       }
     ]
   },
@@ -6270,16 +6290,6 @@
       "partOfSpeech": "v",
       "writtenForm": "crimp"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-crimp-v-01459835-01",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-crimp-v-01226397-01 ewn-crimp-v-01459835-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-crimp-v-01459835-01",
@@ -6303,6 +6313,16 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-crimp-v-01459835-01",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-crimp-v-01226397-01 ewn-crimp-v-01459835-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-aluminize-v": {
@@ -6310,10 +6330,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "aluminize"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-aluminize-v-01340795-01",
-      "subcategorizationFrame": "Somebody ----s something"
     },
     "Sense": [
       {
@@ -6327,6 +6343,12 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-aluminize-v-01340795-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-snap_at-v": {
@@ -6335,6 +6357,13 @@
       "partOfSpeech": "v",
       "writtenForm": "snap at"
     },
+    "Sense": [
+      {
+        "id": "ewn-snap_at-v-01448375-01",
+        "synset": "ewn-01448375-v",
+        "dc:identifier": "snap_at%2:35:00::"
+      }
+    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-snap_at-v-01448375-01",
@@ -6344,13 +6373,6 @@
         "senses": "ewn-snap_at-v-01448375-01",
         "subcategorizationFrame": "Somebody ----s something"
       }
-    ],
-    "Sense": [
-      {
-        "id": "ewn-snap_at-v-01448375-01",
-        "synset": "ewn-01448375-v",
-        "dc:identifier": "snap_at%2:35:00::"
-      }
     ]
   },
   "ewn-syringe-v": {
@@ -6358,10 +6380,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "syringe"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-syringe-v-01376087-01",
-      "subcategorizationFrame": "Somebody ----s something"
     },
     "Sense": [
       {
@@ -6374,6 +6392,12 @@
             "target": "ewn-syringe-n-04383963-01"
           }
         ]
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-syringe-v-01376087-01",
+        "subcategorizationFrame": "Somebody ----s something"
       }
     ]
   },
@@ -7202,16 +7226,6 @@
       "partOfSpeech": "v",
       "writtenForm": "compete"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-compete-v-01074673-01",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-compete-v-01074673-01",
-        "subcategorizationFrame": "Somebody ----s PP"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-compete-v-01074673-01",
@@ -7236,6 +7250,16 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-compete-v-01074673-01",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-compete-v-01074673-01",
+        "subcategorizationFrame": "Somebody ----s PP"
+      }
     ]
   },
   "ewn-chouse-v": {
@@ -7244,6 +7268,13 @@
       "partOfSpeech": "v",
       "writtenForm": "chouse"
     },
+    "Sense": [
+      {
+        "id": "ewn-chouse-v-01107035-02",
+        "synset": "ewn-01107035-v",
+        "dc:identifier": "chouse%2:33:00::"
+      }
+    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-chouse-v-01107035-02",
@@ -7253,13 +7284,6 @@
         "senses": "ewn-chouse-v-01107035-02",
         "subcategorizationFrame": "Somebody ----s somebody"
       }
-    ],
-    "Sense": [
-      {
-        "id": "ewn-chouse-v-01107035-02",
-        "synset": "ewn-01107035-v",
-        "dc:identifier": "chouse%2:33:00::"
-      }
     ]
   },
   "ewn-nuke-v": {
@@ -7268,16 +7292,6 @@
       "partOfSpeech": "v",
       "writtenForm": "nuke"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-nuke-v-01135406-02 ewn-nuke-v-01135714-01 ewn-nuke-v-00322737-04",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-nuke-v-01135714-01",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-nuke-v-01135714-01",
@@ -7305,6 +7319,16 @@
         "id": "ewn-nuke-v-00322737-04",
         "synset": "ewn-00322737-v",
         "dc:identifier": "nuke%2:30:04::"
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-nuke-v-01135406-02 ewn-nuke-v-01135714-01 ewn-nuke-v-00322737-04",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-nuke-v-01135714-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
       }
     ]
   },
@@ -9118,20 +9142,6 @@
       "partOfSpeech": "v",
       "writtenForm": "liquify"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-liquify-v-00444939-03",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-liquify-v-00445264-02",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-liquify-v-00445264-02",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Form": [
       {
         "writtenForm": "liquified"
@@ -9176,6 +9186,20 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-liquify-v-00444939-03",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-liquify-v-00445264-02",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-liquify-v-00445264-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-immigrate-v": {
@@ -9184,32 +9208,6 @@
       "partOfSpeech": "v",
       "writtenForm": "immigrate"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-immigrate-v-00414629-01",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      },
-      {
-        "senses": "ewn-immigrate-v-00416892-01",
-        "subcategorizationFrame": "Something is ----ing PP"
-      },
-      {
-        "senses": "ewn-immigrate-v-00414357-01",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-immigrate-v-00414629-01",
-        "subcategorizationFrame": "Somebody ----s somebody PP"
-      },
-      {
-        "senses": "ewn-immigrate-v-00414357-01",
-        "subcategorizationFrame": "Somebody ----s PP"
-      },
-      {
-        "senses": "ewn-immigrate-v-00416892-01",
-        "subcategorizationFrame": "Something ----s"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-immigrate-v-00416892-01",
@@ -9256,6 +9254,32 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-immigrate-v-00414629-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      },
+      {
+        "senses": "ewn-immigrate-v-00416892-01",
+        "subcategorizationFrame": "Something is ----ing PP"
+      },
+      {
+        "senses": "ewn-immigrate-v-00414357-01",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-immigrate-v-00414629-01",
+        "subcategorizationFrame": "Somebody ----s somebody PP"
+      },
+      {
+        "senses": "ewn-immigrate-v-00414357-01",
+        "subcategorizationFrame": "Somebody ----s PP"
+      },
+      {
+        "senses": "ewn-immigrate-v-00416892-01",
+        "subcategorizationFrame": "Something ----s"
+      }
     ]
   },
   "ewn-cup-v": {
@@ -9264,16 +9288,6 @@
       "partOfSpeech": "v",
       "writtenForm": "cup"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-cup-v-00087042-01",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      },
-      {
-        "senses": "ewn-cup-v-00189394-01 ewn-cup-v-00478759-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Form": [
       {
         "writtenForm": "cupped"
@@ -9314,6 +9328,16 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-cup-v-00087042-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      },
+      {
+        "senses": "ewn-cup-v-00189394-01 ewn-cup-v-00478759-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-systematize-v": {
@@ -9322,16 +9346,6 @@
       "partOfSpeech": "v",
       "writtenForm": "systematize"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-systematize-v-00481900-01",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-systematize-v-00481900-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-systematize-v-00481900-01",
@@ -9348,6 +9362,16 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-systematize-v-00481900-01",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-systematize-v-00481900-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-dye-v": {
@@ -9356,16 +9380,6 @@
       "partOfSpeech": "v",
       "writtenForm": "dye"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-dye-v-00283850-01",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-dye-v-00283850-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-dye-v-00283850-01",
@@ -9391,6 +9405,16 @@
         "synset": "ewn-00284175-v",
         "dc:identifier": "dye%2:30:01::"
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-dye-v-00283850-01",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-dye-v-00283850-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-dehumidify-v": {
@@ -9398,10 +9422,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "dehumidify"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-dehumidify-v-00216483-01",
-      "subcategorizationFrame": "Something ----s something"
     },
     "Form": [
       {
@@ -9420,6 +9440,12 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-dehumidify-v-00216483-01",
+        "subcategorizationFrame": "Something ----s something"
+      }
     ]
   },
   "ewn-diversify-v": {
@@ -9428,24 +9454,6 @@
       "partOfSpeech": "v",
       "writtenForm": "diversify"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-diversify-v-00437357-01 ewn-diversify-v-00437621-01",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-diversify-v-00438078-01",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-diversify-v-00437357-01",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-diversify-v-00437357-01 ewn-diversify-v-00438078-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Form": [
       {
         "writtenForm": "diversified"
@@ -9509,6 +9517,24 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-diversify-v-00437357-01 ewn-diversify-v-00437621-01",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-diversify-v-00438078-01",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-diversify-v-00437357-01",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-diversify-v-00437357-01 ewn-diversify-v-00438078-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-deoxidise-v": {
@@ -9517,16 +9543,6 @@
       "partOfSpeech": "v",
       "writtenForm": "deoxidise"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-deoxidise-v-00238763-02",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-deoxidise-v-00238763-02",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-deoxidise-v-00238763-02",
@@ -9539,6 +9555,16 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-deoxidise-v-00238763-02",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-deoxidise-v-00238763-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-detusk-v": {
@@ -9547,15 +9573,17 @@
       "partOfSpeech": "v",
       "writtenForm": "detusk"
     },
-    "SyntacticBehaviour": {
-      "senses": "ewn-detusk-v-00198588-02",
-      "subcategorizationFrame": "Somebody ----s something"
-    },
     "Sense": [
       {
         "id": "ewn-detusk-v-00198588-02",
         "synset": "ewn-00198588-v",
         "dc:identifier": "detusk%2:30:00::"
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-detusk-v-00198588-02",
+        "subcategorizationFrame": "Somebody ----s something"
       }
     ]
   },
@@ -9565,16 +9593,6 @@
       "partOfSpeech": "v",
       "writtenForm": "flare up"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-flare_up-v-00308567-03 ewn-flare_up-v-02770203-01",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-flare_up-v-00308567-03",
-        "subcategorizationFrame": "Somebody ----s"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-flare_up-v-02770203-01",
@@ -9591,6 +9609,16 @@
             "target": "ewn-flare-up-n-07449542-03"
           }
         ]
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-flare_up-v-00308567-03 ewn-flare_up-v-02770203-01",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-flare_up-v-00308567-03",
+        "subcategorizationFrame": "Somebody ----s"
       }
     ]
   },
@@ -10948,10 +10976,6 @@
       "partOfSpeech": "v",
       "writtenForm": "compassionate"
     },
-    "SyntacticBehaviour": {
-      "senses": "ewn-compassionate-v-01825946-03",
-      "subcategorizationFrame": "Somebody ----s somebody"
-    },
     "Sense": [
       {
         "id": "ewn-compassionate-v-01825946-03",
@@ -10968,6 +10992,12 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-compassionate-v-01825946-03",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      }
     ]
   },
   "ewn-chevvy-v": {
@@ -10976,6 +11006,13 @@
       "partOfSpeech": "v",
       "writtenForm": "chevvy"
     },
+    "Sense": [
+      {
+        "id": "ewn-chevvy-v-01793315-07",
+        "synset": "ewn-01793315-v",
+        "dc:identifier": "chevvy%2:37:00::"
+      }
+    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-chevvy-v-01793315-07",
@@ -10984,13 +11021,6 @@
       {
         "senses": "ewn-chevvy-v-01793315-07",
         "subcategorizationFrame": "Somebody ----s somebody"
-      }
-    ],
-    "Sense": [
-      {
-        "id": "ewn-chevvy-v-01793315-07",
-        "synset": "ewn-01793315-v",
-        "dc:identifier": "chevvy%2:37:00::"
       }
     ]
   },
@@ -11084,10 +11114,6 @@
       "partOfSpeech": "v",
       "writtenForm": "confection"
     },
-    "SyntacticBehaviour": {
-      "senses": "ewn-confection-v-01629457-02",
-      "subcategorizationFrame": "Somebody ----s something"
-    },
     "Sense": [
       {
         "id": "ewn-confection-v-01629457-02",
@@ -11100,6 +11126,12 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-confection-v-01629457-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-whip_up-v": {
@@ -11107,10 +11139,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "whip up"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-whip_up-v-01669897-01",
-      "subcategorizationFrame": "Somebody ----s something"
     },
     "Sense": [
       {
@@ -11124,6 +11152,12 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-whip_up-v-01669897-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-host-v": {
@@ -11131,10 +11165,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "host"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-host-v-01196951-01",
-      "subcategorizationFrame": "Somebody ----s somebody"
     },
     "Sense": [
       {
@@ -11155,6 +11185,12 @@
             "target": "ewn-host-n-10206749-01"
           }
         ]
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-host-v-01196951-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
       }
     ]
   },
@@ -11829,24 +11865,6 @@
       "partOfSpeech": "v",
       "writtenForm": "colligate"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-colligate-v-00715072-05",
-        "subcategorizationFrame": "Somebody ----s somebody with something"
-      },
-      {
-        "senses": "ewn-colligate-v-00715072-05",
-        "subcategorizationFrame": "Somebody ----s something with something"
-      },
-      {
-        "senses": "ewn-colligate-v-00687125-02",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-colligate-v-00687125-02",
-        "subcategorizationFrame": "Somebody ----s something PP"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-colligate-v-00715072-05",
@@ -11874,6 +11892,24 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-colligate-v-00715072-05",
+        "subcategorizationFrame": "Somebody ----s somebody with something"
+      },
+      {
+        "senses": "ewn-colligate-v-00715072-05",
+        "subcategorizationFrame": "Somebody ----s something with something"
+      },
+      {
+        "senses": "ewn-colligate-v-00687125-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-colligate-v-00687125-02",
+        "subcategorizationFrame": "Somebody ----s something PP"
+      }
     ]
   },
   "ewn-think_back-v": {
@@ -11882,16 +11918,6 @@
       "partOfSpeech": "v",
       "writtenForm": "think back"
     },
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-think_back-v-00612810-02",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-think_back-v-00612810-02",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
-    ],
     "Sense": [
       {
         "id": "ewn-think_back-v-00612810-02",
@@ -11904,6 +11930,16 @@
           }
         ]
       }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-think_back-v-00612810-02",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-think_back-v-00612810-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
     ]
   },
   "ewn-sick-v": {
@@ -11911,10 +11947,6 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "sick"
-    },
-    "SyntacticBehaviour": {
-      "senses": "ewn-sick-v-00076153-05",
-      "subcategorizationFrame": "Somebody ----s"
     },
     "Sense": [
       {
@@ -11927,6 +11959,12 @@
             "target": "ewn-sick-n-07967004-01"
           }
         ]
+      }
+    ],
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-sick-v-00076153-05",
+        "subcategorizationFrame": "Somebody ----s"
       }
     ]
   },

@@ -54,9 +54,8 @@ const emp = (obj) => {
   )
 }
 const convertLex = (lex) => {
-  const { Sense, Form, ...rest } = lex
+  const { Sense, Form,SyntacticBehaviour, ...rest } = lex
   const newSense = arr(Sense).map(sense => {
-
     const { SenseRelation, ...senseRest } = sense
     return emp({
       ...senseRest,
@@ -66,7 +65,8 @@ const convertLex = (lex) => {
   return emp({
     ...rest,
     Form: arr(Form),
-    Sense: newSense
+    Sense: newSense,
+    SyntacticBehaviour: arr(SyntacticBehaviour)
   })
 }
 const generateLexicalEntries = (lexs) => {
@@ -79,7 +79,8 @@ const generateLexicalEntries = (lexs) => {
   saveDigests(dir, digs)
 }
 const convertSynset = (syn) => {
-  return emp({ ...syn })
+  const { Definition, ...rest} = syn
+  return emp({ ...rest, Definition: arr(Definition) })
 }
 
 const generateSynset = (synsets) => {
