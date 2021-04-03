@@ -52,19 +52,23 @@
         "id": "ewn-bait-n-05703197-01",
         "synset": "ewn-05703197-n",
         "dc:identifier": "bait%1:09:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-bait-v-02583962-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-bait-v-02583962-01"
+          }
+        ]
       },
       {
         "id": "ewn-bait-n-02779210-01",
         "synset": "ewn-02779210-n",
         "dc:identifier": "bait%1:06:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-bait-v-02583962-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-bait-v-02583962-01"
+          }
+        ]
       }
     ]
   },
@@ -123,10 +127,12 @@
         "id": "ewn-induction-n-05782412-03",
         "synset": "ewn-05782412-n",
         "dc:identifier": "induction%1:09:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-induce-v-00638103-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-induce-v-00638103-01"
+          }
+        ]
       },
       {
         "id": "ewn-induction-n-05835577-02",
@@ -194,10 +200,12 @@
         "id": "ewn-generalship-n-05625250-01",
         "synset": "ewn-05625250-n",
         "dc:identifier": "generalship%1:09:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-general-n-10143381-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-general-n-10143381-01"
+          }
+        ]
       },
       {
         "id": "ewn-generalship-n-00593767-01",
@@ -335,10 +343,12 @@
         "id": "ewn-underrating-n-05812499-03",
         "synset": "ewn-05812499-n",
         "dc:identifier": "underrating%1:09:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-underrate-v-00673254-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-underrate-v-00673254-02"
+          }
+        ]
       }
     ]
   },
@@ -765,9 +775,11 @@
       "partOfSpeech": "n",
       "writtenForm": "funiculus"
     },
-    "Form": {
-      "writtenForm": "funiculi"
-    },
+    "Form": [
+      {
+        "writtenForm": "funiculi"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-funiculus-n-11698650-02",
@@ -1359,19 +1371,23 @@
         "id": "ewn-yeast-n-15130838-01",
         "synset": "ewn-15130838-n",
         "dc:identifier": "yeast%1:27:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-yeasty-a-03157135-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-yeasty-a-03157135-01"
+          }
+        ]
       },
       {
         "id": "ewn-yeast-n-13046407-01",
         "synset": "ewn-13046407-n",
         "dc:identifier": "yeast%1:20:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-yeasty-a-03157135-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-yeasty-a-03157135-01"
+          }
+        ]
       }
     ]
   },
@@ -1381,18 +1397,6 @@
       "partOfSpeech": "v",
       "writtenForm": "rejoin"
     },
-    "Sense": [
-      {
-        "id": "ewn-rejoin-v-02440399-01",
-        "synset": "ewn-02440399-v",
-        "dc:identifier": "rejoin%2:41:00::"
-      },
-      {
-        "id": "ewn-rejoin-v-00818014-06",
-        "synset": "ewn-00818014-v",
-        "dc:identifier": "rejoin%2:32:00::"
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-rejoin-v-00818014-06",
@@ -1410,6 +1414,18 @@
         "senses": "ewn-rejoin-v-02440399-01",
         "subcategorizationFrame": "Somebody ----s somebody"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-rejoin-v-02440399-01",
+        "synset": "ewn-02440399-v",
+        "dc:identifier": "rejoin%2:41:00::"
+      },
+      {
+        "id": "ewn-rejoin-v-00818014-06",
+        "synset": "ewn-00818014-v",
+        "dc:identifier": "rejoin%2:32:00::"
+      }
     ]
   },
   "ewn-prejudice-v": {
@@ -1418,26 +1434,6 @@
       "partOfSpeech": "v",
       "writtenForm": "prejudice"
     },
-    "Sense": [
-      {
-        "id": "ewn-prejudice-v-02519408-01",
-        "synset": "ewn-02519408-v",
-        "dc:identifier": "prejudice%2:41:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-prejudice-n-06211643-02"
-        }
-      },
-      {
-        "id": "ewn-prejudice-v-00682064-01",
-        "synset": "ewn-00682064-v",
-        "dc:identifier": "prejudice%2:31:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-prejudice-n-06211643-02"
-        }
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-prejudice-v-02519408-01 ewn-prejudice-v-00682064-01",
@@ -1447,6 +1443,30 @@
         "senses": "ewn-prejudice-v-02519408-01 ewn-prejudice-v-00682064-01",
         "subcategorizationFrame": "Somebody ----s somebody"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-prejudice-v-02519408-01",
+        "synset": "ewn-02519408-v",
+        "dc:identifier": "prejudice%2:41:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-prejudice-n-06211643-02"
+          }
+        ]
+      },
+      {
+        "id": "ewn-prejudice-v-00682064-01",
+        "synset": "ewn-00682064-v",
+        "dc:identifier": "prejudice%2:31:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-prejudice-n-06211643-02"
+          }
+        ]
+      }
     ]
   },
   "ewn-depose-v": {
@@ -1455,15 +1475,27 @@
       "partOfSpeech": "v",
       "writtenForm": "depose"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-depose-v-01015049-02",
+        "subcategorizationFrame": "Somebody ----s that CLAUSE"
+      },
+      {
+        "senses": "ewn-depose-v-02410394-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-depose-v-02410394-01",
         "synset": "ewn-02410394-v",
         "dc:identifier": "depose%2:41:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-deposition-n-00209792-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-deposition-n-00209792-01"
+          }
+        ]
       },
       {
         "id": "ewn-depose-v-01015049-02",
@@ -1480,16 +1512,6 @@
           }
         ]
       }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-depose-v-01015049-02",
-        "subcategorizationFrame": "Somebody ----s that CLAUSE"
-      },
-      {
-        "senses": "ewn-depose-v-02410394-01",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      }
     ]
   },
   "ewn-cashier-v": {
@@ -1498,6 +1520,16 @@
       "partOfSpeech": "v",
       "writtenForm": "cashier"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-cashier-v-02432443-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-cashier-v-02427659-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-cashier-v-02432443-01",
@@ -1509,16 +1541,6 @@
         "synset": "ewn-02427659-v",
         "dc:identifier": "cashier%2:41:00::"
       }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-cashier-v-02432443-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-cashier-v-02427659-01",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      }
     ]
   },
   "ewn-licence-v": {
@@ -1527,6 +1549,20 @@
       "partOfSpeech": "v",
       "writtenForm": "licence"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-licence-v-02449527-02",
+        "subcategorizationFrame": "Somebody ----s somebody to INFINITIVE"
+      },
+      {
+        "senses": "ewn-licence-v-02449527-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-licence-v-02449527-02",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-licence-v-02449527-02",
@@ -1547,20 +1583,6 @@
           }
         ]
       }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-licence-v-02449527-02",
-        "subcategorizationFrame": "Somebody ----s somebody to INFINITIVE"
-      },
-      {
-        "senses": "ewn-licence-v-02449527-02",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-licence-v-02449527-02",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      }
     ]
   },
   "ewn-grope-v": {
@@ -1569,6 +1591,24 @@
       "partOfSpeech": "v",
       "writtenForm": "grope"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-grope-v-01317398-01",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-grope-v-01317398-01",
+        "subcategorizationFrame": "Somebody ----s PP"
+      },
+      {
+        "senses": "ewn-grope-v-01213827-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      },
+      {
+        "senses": "ewn-grope-v-02536602-01",
+        "subcategorizationFrame": "Somebody ----s to INFINITIVE"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-grope-v-01317398-01",
@@ -1593,37 +1633,23 @@
         "id": "ewn-grope-v-02536602-01",
         "synset": "ewn-02536602-v",
         "dc:identifier": "grope%2:41:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-grope-n-00141847-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-grope-n-00141847-01"
+          }
+        ]
       },
       {
         "id": "ewn-grope-v-01213827-01",
         "synset": "ewn-01213827-v",
         "dc:identifier": "grope%2:35:02::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-grope-n-00141847-01"
-        }
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-grope-v-01317398-01",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-grope-v-01317398-01",
-        "subcategorizationFrame": "Somebody ----s PP"
-      },
-      {
-        "senses": "ewn-grope-v-01213827-01",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      },
-      {
-        "senses": "ewn-grope-v-02536602-01",
-        "subcategorizationFrame": "Somebody ----s to INFINITIVE"
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-grope-n-00141847-01"
+          }
+        ]
       }
     ]
   },
@@ -1633,17 +1659,6 @@
       "partOfSpeech": "v",
       "writtenForm": "portion"
     },
-    "Sense": [
-      {
-        "id": "ewn-portion-v-02233480-03",
-        "synset": "ewn-02233480-v",
-        "dc:identifier": "portion%2:40:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-portion-n-01087022-02"
-        }
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-portion-v-02233480-03",
@@ -1653,6 +1668,19 @@
         "senses": "ewn-portion-v-02233480-03",
         "subcategorizationFrame": "Somebody ----s somebody something"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-portion-v-02233480-03",
+        "synset": "ewn-02233480-v",
+        "dc:identifier": "portion%2:40:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-portion-n-01087022-02"
+          }
+        ]
+      }
     ]
   },
   "ewn-mark_down-v": {
@@ -1660,6 +1688,10 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "mark down"
+    },
+    "SyntacticBehaviour": {
+      "senses": "ewn-mark_down-v-02325058-01",
+      "subcategorizationFrame": "Somebody ----s something"
     },
     "Sense": [
       {
@@ -1677,11 +1709,7 @@
           }
         ]
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-mark_down-v-02325058-01",
-      "subcategorizationFrame": "Somebody ----s something"
-    }
+    ]
   },
   "ewn-propagate-v": {
     "id": "ewn-propagate-v",
@@ -1689,33 +1717,57 @@
       "partOfSpeech": "v",
       "writtenForm": "propagate"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-propagate-v-01381921-01 ewn-propagate-v-01438772-01",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-propagate-v-02089820-01 ewn-propagate-v-01382787-02 ewn-propagate-v-00055281-01",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-propagate-v-02235229-01",
+        "subcategorizationFrame": "Somebody ----s something to somebody"
+      },
+      {
+        "senses": "ewn-propagate-v-02235229-01 ewn-propagate-v-00970243-06 ewn-propagate-v-01381921-01 ewn-propagate-v-00055613-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-propagate-v-02235229-01",
         "synset": "ewn-02235229-v",
         "dc:identifier": "propagate%2:40:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-propagation-n-00851612-03"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-propagation-n-00851612-03"
+          }
+        ]
       },
       {
         "id": "ewn-propagate-v-02089820-01",
         "synset": "ewn-02089820-v",
         "dc:identifier": "propagate%2:38:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-propagation-n-11533425-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-propagation-n-11533425-01"
+          }
+        ]
       },
       {
         "id": "ewn-propagate-v-01438772-01",
         "synset": "ewn-01438772-v",
         "dc:identifier": "propagate%2:35:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-propagation-n-11533425-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-propagation-n-11533425-01"
+          }
+        ]
       },
       {
         "id": "ewn-propagate-v-01382787-02",
@@ -1726,10 +1778,12 @@
         "id": "ewn-propagate-v-01381921-01",
         "synset": "ewn-01381921-v",
         "dc:identifier": "propagate%2:35:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-propagation-n-06263648-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-propagation-n-06263648-01"
+          }
+        ]
       },
       {
         "id": "ewn-propagate-v-00970243-06",
@@ -1780,24 +1834,6 @@
           }
         ]
       }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-propagate-v-01381921-01 ewn-propagate-v-01438772-01",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-propagate-v-02089820-01 ewn-propagate-v-01382787-02 ewn-propagate-v-00055281-01",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-propagate-v-02235229-01",
-        "subcategorizationFrame": "Somebody ----s something to somebody"
-      },
-      {
-        "senses": "ewn-propagate-v-02235229-01 ewn-propagate-v-00970243-06 ewn-propagate-v-01381921-01 ewn-propagate-v-00055613-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
     ]
   },
   "ewn-throw_away-v": {
@@ -1806,6 +1842,16 @@
       "partOfSpeech": "v",
       "writtenForm": "throw away"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-throw_away-v-01516062-07",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-throw_away-v-02227100-11 ewn-throw_away-v-01516062-07",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-throw_away-v-02227100-11",
@@ -1816,16 +1862,6 @@
         "id": "ewn-throw_away-v-01516062-07",
         "synset": "ewn-01516062-v",
         "dc:identifier": "throw_away%2:35:00::"
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-throw_away-v-01516062-07",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-throw_away-v-02227100-11 ewn-throw_away-v-01516062-07",
-        "subcategorizationFrame": "Somebody ----s something"
       }
     ]
   },
@@ -1840,10 +1876,12 @@
         "id": "ewn-upwardly-r-00096883-04",
         "synset": "ewn-00096883-r",
         "dc:identifier": "upwardly%4:02:00::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-downwardly-r-00095870-04"
-        }
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-downwardly-r-00095870-04"
+          }
+        ]
       }
     ]
   },
@@ -1858,10 +1896,12 @@
         "id": "ewn-geographically-r-00233903-01",
         "synset": "ewn-00233903-r",
         "dc:identifier": "geographically%4:02:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-geographic-a-03033057-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-geographic-a-03033057-01"
+          }
+        ]
       }
     ]
   },
@@ -1876,10 +1916,12 @@
         "id": "ewn-feasibly-r-00430483-02",
         "synset": "ewn-00430483-r",
         "dc:identifier": "feasibly%4:02:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-feasible-s-01828067-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-feasible-s-01828067-01"
+          }
+        ]
       }
     ]
   },
@@ -1908,10 +1950,12 @@
         "id": "ewn-obviously-r-00039730-01",
         "synset": "ewn-00039730-r",
         "dc:identifier": "obviously%4:02:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-obvious-a-01622205-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-obvious-a-01622205-01"
+          }
+        ]
       }
     ]
   },
@@ -1940,10 +1984,12 @@
         "id": "ewn-currently-r-00048806-02",
         "synset": "ewn-00048806-r",
         "dc:identifier": "currently%4:02:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-current-a-00669281-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-current-a-00669281-01"
+          }
+        ]
       }
     ]
   },
@@ -2006,10 +2052,12 @@
         "id": "ewn-untypically-r-00129174-02",
         "synset": "ewn-00129174-r",
         "dc:identifier": "untypically%4:02:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-untypical-a-02479427-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-untypical-a-02479427-02"
+          }
+        ]
       }
     ]
   },
@@ -2024,10 +2072,12 @@
         "id": "ewn-insultingly-r-00381504-01",
         "synset": "ewn-00381504-r",
         "dc:identifier": "insultingly%4:02:01::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-insulting-s-02002388-03"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-insulting-s-02002388-03"
+          }
+        ]
       },
       {
         "id": "ewn-insultingly-r-00346108-02",
@@ -2047,10 +2097,12 @@
         "id": "ewn-originally-r-00155858-01",
         "synset": "ewn-00155858-r",
         "dc:identifier": "originally%4:02:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-original-a-01691099-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-original-a-01691099-01"
+          }
+        ]
       },
       {
         "id": "ewn-originally-r-00433834-02",
@@ -2075,10 +2127,12 @@
         "id": "ewn-gutturally-r-00143261-01",
         "synset": "ewn-00143261-r",
         "dc:identifier": "gutturally%4:02:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-guttural-a-02748215-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-guttural-a-02748215-01"
+          }
+        ]
       }
     ]
   },
@@ -2093,10 +2147,12 @@
         "id": "ewn-hostilely-r-00243937-02",
         "synset": "ewn-00243937-r",
         "dc:identifier": "hostilely%4:02:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-hostile-a-01247284-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-hostile-a-01247284-01"
+          }
+        ]
       }
     ]
   },
@@ -2106,6 +2162,24 @@
       "partOfSpeech": "v",
       "writtenForm": "trim"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-trim-v-01251346-02",
+        "subcategorizationFrame": "Something ----s somebody"
+      },
+      {
+        "senses": "ewn-trim-v-01251346-02 ewn-trim-v-01265128-02 ewn-trim-v-01323662-04 ewn-trim-v-00430013-04 ewn-trim-v-01683328-01",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-trim-v-02757827-01",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-trim-v-02757982-01 ewn-trim-v-01251346-02 ewn-trim-v-01265128-02 ewn-trim-v-01323662-04 ewn-trim-v-00297974-01 ewn-trim-v-00430013-04 ewn-trim-v-01683328-01 ewn-trim-v-01683701-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
+    ],
     "Form": [
       {
         "writtenForm": "trimmed"
@@ -2119,10 +2193,12 @@
         "id": "ewn-trim-v-01265128-02",
         "synset": "ewn-01265128-v",
         "dc:identifier": "trim%2:35:03::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-trimmer-n-04491181-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-trimmer-n-04491181-01"
+          }
+        ]
       },
       {
         "id": "ewn-trim-v-01683701-01",
@@ -2143,37 +2219,45 @@
         "id": "ewn-trim-v-00430013-04",
         "synset": "ewn-00430013-v",
         "dc:identifier": "trim%2:30:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-trim-n-00360729-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-trim-n-00360729-01"
+          }
+        ]
       },
       {
         "id": "ewn-trim-v-02757982-01",
         "synset": "ewn-02757982-v",
         "dc:identifier": "trim%2:42:06::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-trim-n-13850733-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-trim-n-13850733-01"
+          }
+        ]
       },
       {
         "id": "ewn-trim-v-02757827-01",
         "synset": "ewn-02757827-v",
         "dc:identifier": "trim%2:42:05::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-trim-n-13850733-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-trim-n-13850733-01"
+          }
+        ]
       },
       {
         "id": "ewn-trim-v-01683328-01",
         "synset": "ewn-01683328-v",
         "dc:identifier": "trim%2:36:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-trim-n-04491416-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-trim-n-04491416-02"
+          }
+        ]
       },
       {
         "id": "ewn-trim-v-01323662-04",
@@ -2214,24 +2298,6 @@
         "synset": "ewn-00297974-v",
         "dc:identifier": "trim%2:30:04::"
       }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-trim-v-01251346-02",
-        "subcategorizationFrame": "Something ----s somebody"
-      },
-      {
-        "senses": "ewn-trim-v-01251346-02 ewn-trim-v-01265128-02 ewn-trim-v-01323662-04 ewn-trim-v-00430013-04 ewn-trim-v-01683328-01",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-trim-v-02757827-01",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-trim-v-02757982-01 ewn-trim-v-01251346-02 ewn-trim-v-01265128-02 ewn-trim-v-01323662-04 ewn-trim-v-00297974-01 ewn-trim-v-00430013-04 ewn-trim-v-01683328-01 ewn-trim-v-01683701-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      }
     ]
   },
   "ewn-tarry-v": {
@@ -2240,9 +2306,21 @@
       "partOfSpeech": "v",
       "writtenForm": "tarry"
     },
-    "Form": {
-      "writtenForm": "tarried"
-    },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-tarry-v-02645159-09 ewn-tarry-v-02015412-01",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-tarry-v-02645159-09 ewn-tarry-v-02015412-01",
+        "subcategorizationFrame": "Somebody ----s PP"
+      }
+    ],
+    "Form": [
+      {
+        "writtenForm": "tarried"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-tarry-v-02645159-09",
@@ -2253,20 +2331,12 @@
         "id": "ewn-tarry-v-02015412-01",
         "synset": "ewn-02015412-v",
         "dc:identifier": "tarry%2:38:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-tarriance-n-01070347-01"
-        }
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-tarry-v-02645159-09 ewn-tarry-v-02015412-01",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-tarry-v-02645159-09 ewn-tarry-v-02015412-01",
-        "subcategorizationFrame": "Somebody ----s PP"
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-tarriance-n-01070347-01"
+          }
+        ]
       }
     ]
   },
@@ -2276,6 +2346,36 @@
       "partOfSpeech": "v",
       "writtenForm": "crowd"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-crowd-v-02032568-02",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      },
+      {
+        "senses": "ewn-crowd-v-02031458-01",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-crowd-v-02032568-02",
+        "subcategorizationFrame": "Somebody ----s somebody PP"
+      },
+      {
+        "senses": "ewn-crowd-v-02031458-01",
+        "subcategorizationFrame": "Somebody ----s PP"
+      },
+      {
+        "senses": "ewn-crowd-v-02032568-02",
+        "subcategorizationFrame": "Somebody ----s something PP"
+      },
+      {
+        "senses": "ewn-crowd-v-02655407-01 ewn-crowd-v-02032568-02 ewn-crowd-v-02058788-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-crowd-v-02655407-01",
+        "subcategorizationFrame": "Something ----s something"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-crowd-v-02032568-02",
@@ -2327,36 +2427,6 @@
         "synset": "ewn-02058788-v",
         "dc:identifier": "crowd%2:38:02::"
       }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-crowd-v-02032568-02",
-        "subcategorizationFrame": "Somebody ----s somebody"
-      },
-      {
-        "senses": "ewn-crowd-v-02031458-01",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-crowd-v-02032568-02",
-        "subcategorizationFrame": "Somebody ----s somebody PP"
-      },
-      {
-        "senses": "ewn-crowd-v-02031458-01",
-        "subcategorizationFrame": "Somebody ----s PP"
-      },
-      {
-        "senses": "ewn-crowd-v-02032568-02",
-        "subcategorizationFrame": "Somebody ----s something PP"
-      },
-      {
-        "senses": "ewn-crowd-v-02655407-01 ewn-crowd-v-02032568-02 ewn-crowd-v-02058788-02",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-crowd-v-02655407-01",
-        "subcategorizationFrame": "Something ----s something"
-      }
     ]
   },
   "ewn-swarm-v": {
@@ -2365,6 +2435,16 @@
       "partOfSpeech": "v",
       "writtenForm": "swarm"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-swarm-v-02032212-02",
+        "subcategorizationFrame": "Somebody ----s PP"
+      },
+      {
+        "senses": "ewn-swarm-v-02720849-03",
+        "subcategorizationFrame": "Something is ----ing PP"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-swarm-v-02720849-03",
@@ -2385,20 +2465,12 @@
         "id": "ewn-swarm-v-02032212-02",
         "synset": "ewn-02032212-v",
         "dc:identifier": "swarm%2:38:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-swarm-n-08201135-03"
-        }
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-swarm-v-02032212-02",
-        "subcategorizationFrame": "Somebody ----s PP"
-      },
-      {
-        "senses": "ewn-swarm-v-02720849-03",
-        "subcategorizationFrame": "Something is ----ing PP"
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-swarm-n-08201135-03"
+          }
+        ]
       }
     ]
   },
@@ -2408,13 +2480,6 @@
       "partOfSpeech": "v",
       "writtenForm": "revolve about"
     },
-    "Sense": [
-      {
-        "id": "ewn-revolve_about-v-02682306-04",
-        "synset": "ewn-02682306-v",
-        "dc:identifier": "revolve_about%2:42:00::"
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-revolve_about-v-02682306-04",
@@ -2424,6 +2489,13 @@
         "senses": "ewn-revolve_about-v-02682306-04",
         "subcategorizationFrame": "Something ----s somebody"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-revolve_about-v-02682306-04",
+        "synset": "ewn-02682306-v",
+        "dc:identifier": "revolve_about%2:42:00::"
+      }
     ]
   },
   "ewn-lay_over-v": {
@@ -2432,26 +2504,6 @@
       "partOfSpeech": "v",
       "writtenForm": "lay over"
     },
-    "Sense": [
-      {
-        "id": "ewn-lay_over-v-02659017-01",
-        "synset": "ewn-02659017-v",
-        "dc:identifier": "lay_over%2:42:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-layover-n-01058335-03"
-        }
-      },
-      {
-        "id": "ewn-lay_over-v-01471892-03",
-        "synset": "ewn-01471892-v",
-        "dc:identifier": "lay_over%2:35:00::",
-        "SenseRelation": {
-          "relType": "also",
-          "target": "ewn-lay-v-01547474-01"
-        }
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-lay_over-v-01471892-03",
@@ -2464,6 +2516,30 @@
       {
         "senses": "ewn-lay_over-v-02659017-01",
         "subcategorizationFrame": "Somebody ----s"
+      }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-lay_over-v-02659017-01",
+        "synset": "ewn-02659017-v",
+        "dc:identifier": "lay_over%2:42:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-layover-n-01058335-03"
+          }
+        ]
+      },
+      {
+        "id": "ewn-lay_over-v-01471892-03",
+        "synset": "ewn-01471892-v",
+        "dc:identifier": "lay_over%2:35:00::",
+        "SenseRelation": [
+          {
+            "relType": "also",
+            "target": "ewn-lay-v-01547474-01"
+          }
+        ]
       }
     ]
   },
@@ -2601,10 +2677,12 @@
         "id": "ewn-bestowal-n-01088280-01",
         "synset": "ewn-01088280-n",
         "dc:identifier": "bestowal%1:04:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-bestow-v-02268154-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-bestow-v-02268154-02"
+          }
+        ]
       },
       {
         "id": "ewn-bestowal-n-13292960-01",
@@ -2690,10 +2768,12 @@
         "id": "ewn-tremor-n-07444084-01",
         "synset": "ewn-07444084-n",
         "dc:identifier": "tremor%1:11:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-tremor-v-01892777-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-tremor-v-01892777-01"
+          }
+        ]
       },
       {
         "id": "ewn-tremor-n-14028622-01",
@@ -2755,10 +2835,12 @@
         "id": "ewn-neurotic_depression-n-14414372-01",
         "synset": "ewn-14414372-n",
         "dc:identifier": "neurotic_depression%1:26:00::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-psychotic_depression-n-14414517-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-psychotic_depression-n-14414517-01"
+          }
+        ]
       }
     ]
   },
@@ -2783,10 +2865,12 @@
         "id": "ewn-fix-n-00267650-02",
         "synset": "ewn-00267650-n",
         "dc:identifier": "fix%1:04:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-fix-v-00261534-03"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-fix-v-00261534-03"
+          }
+        ]
       },
       {
         "id": "ewn-fix-n-00215015-01",
@@ -2811,10 +2895,12 @@
         "id": "ewn-muddle-n-14524151-03",
         "synset": "ewn-14524151-n",
         "dc:identifier": "muddle%1:26:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-muddle-v-00622204-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-muddle-v-00622204-02"
+          }
+        ]
       },
       {
         "id": "ewn-muddle-n-14432893-05",
@@ -2876,19 +2962,23 @@
         "id": "ewn-encapsulation-n-14021880-01",
         "synset": "ewn-14021880-n",
         "dc:identifier": "encapsulation%1:26:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-encapsulate-v-01590905-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-encapsulate-v-01590905-01"
+          }
+        ]
       },
       {
         "id": "ewn-encapsulation-n-13495698-01",
         "synset": "ewn-13495698-n",
         "dc:identifier": "encapsulation%1:22:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-encapsulate-v-01590905-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-encapsulate-v-01590905-01"
+          }
+        ]
       }
     ]
   },
@@ -2917,10 +3007,12 @@
         "id": "ewn-mugginess-n-14559409-01",
         "synset": "ewn-14559409-n",
         "dc:identifier": "mugginess%1:26:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-muggy-s-02560461-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-muggy-s-02560461-01"
+          }
+        ]
       }
     ]
   },
@@ -2963,19 +3055,23 @@
         "id": "ewn-breeziness-n-14547389-01",
         "synset": "ewn-14547389-n",
         "dc:identifier": "breeziness%1:26:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-breezy-s-00306024-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-breezy-s-00306024-02"
+          }
+        ]
       },
       {
         "id": "ewn-breeziness-n-04641154-01",
         "synset": "ewn-04641154-n",
         "dc:identifier": "breeziness%1:07:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-breezy-s-00809136-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-breezy-s-00809136-01"
+          }
+        ]
       }
     ]
   },
@@ -3178,10 +3274,12 @@
         "id": "ewn-wet_fly-n-04581223-01",
         "synset": "ewn-04581223-n",
         "dc:identifier": "wet_fly%1:06:00::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-dry_fly-n-03256635-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-dry_fly-n-03256635-01"
+          }
+        ]
       }
     ]
   },
@@ -3196,19 +3294,23 @@
         "id": "ewn-spectrograph-n-04279901-01",
         "synset": "ewn-04279901-n",
         "dc:identifier": "spectrograph%1:06:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-spectrographic-a-02811114-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-spectrographic-a-02811114-01"
+          }
+        ]
       },
       {
         "id": "ewn-spectrograph-n-04279757-02",
         "synset": "ewn-04279757-n",
         "dc:identifier": "spectrograph%1:06:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-spectrographic-a-02811114-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-spectrographic-a-02811114-01"
+          }
+        ]
       }
     ]
   },
@@ -3312,10 +3414,12 @@
         "id": "ewn-lumber-n-14967718-01",
         "synset": "ewn-14967718-n",
         "dc:identifier": "lumber%1:27:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-lumber-v-01261392-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-lumber-v-01261392-02"
+          }
+        ]
       },
       {
         "id": "ewn-lumber-n-02802334-02",
@@ -3335,10 +3439,12 @@
         "id": "ewn-clamp-n-03040851-01",
         "synset": "ewn-03040851-n",
         "dc:identifier": "clamp%1:06:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-clamp-v-01346292-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-clamp-v-01346292-01"
+          }
+        ]
       }
     ]
   },
@@ -3381,10 +3487,12 @@
         "id": "ewn-hobby-n-00433629-03",
         "synset": "ewn-00433629-n",
         "dc:identifier": "hobby%1:04:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-hobbyist-n-10198700-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-hobbyist-n-10198700-01"
+          }
+        ]
       },
       {
         "id": "ewn-hobby-n-03528796-01",
@@ -3409,10 +3517,12 @@
         "id": "ewn-grate-n-03459480-01",
         "synset": "ewn-03459480-n",
         "dc:identifier": "grate%1:06:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-grate-v-02335579-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-grate-v-02335579-01"
+          }
+        ]
       },
       {
         "id": "ewn-grate-n-07398844-01",
@@ -3423,10 +3533,12 @@
         "id": "ewn-grate-n-03459651-01",
         "synset": "ewn-03459651-n",
         "dc:identifier": "grate%1:06:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-grate-v-02335579-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-grate-v-02335579-01"
+          }
+        ]
       }
     ]
   },
@@ -3615,10 +3727,12 @@
         "id": "ewn-crane-n-02015503-01",
         "synset": "ewn-02015503-n",
         "dc:identifier": "crane%1:05:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-crane-v-00028160-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-crane-v-00028160-01"
+          }
+        ]
       }
     ]
   },
@@ -3731,10 +3845,12 @@
         "id": "ewn-grappler-n-10812808-02",
         "synset": "ewn-10812808-n",
         "dc:identifier": "grappler%1:18:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-grapple-v-01577123-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-grapple-v-01577123-01"
+          }
+        ]
       },
       {
         "id": "ewn-grappler-n-03459155-03",
@@ -3820,10 +3936,12 @@
         "id": "ewn-digitiser-n-03202130-02",
         "synset": "ewn-03202130-n",
         "dc:identifier": "digitiser%1:06:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-digitise-v-00564901-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-digitise-v-00564901-02"
+          }
+        ]
       }
     ]
   },
@@ -3950,10 +4068,12 @@
         "id": "ewn-pout-n-06890792-01",
         "synset": "ewn-06890792-n",
         "dc:identifier": "pout%1:10:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-pout-v-00034751-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-pout-v-00034751-01"
+          }
+        ]
       },
       {
         "id": "ewn-pout-n-02619837-02",
@@ -4543,10 +4663,12 @@
         "id": "ewn-swiftlet-n-01835753-01",
         "synset": "ewn-01835753-n",
         "dc:identifier": "swiftlet%1:05:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-swift-n-01834808-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-swift-n-01834808-01"
+          }
+        ]
       }
     ]
   },
@@ -4570,21 +4692,23 @@
       "partOfSpeech": "v",
       "writtenForm": "pluralize"
     },
+    "SyntacticBehaviour": {
+      "senses": "ewn-pluralize-v-01073938-01",
+      "subcategorizationFrame": "Somebody ----s something"
+    },
     "Sense": [
       {
         "id": "ewn-pluralize-v-01073938-01",
         "synset": "ewn-01073938-v",
         "dc:identifier": "pluralize%2:32:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-pluralization-n-13826719-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-pluralization-n-13826719-01"
+          }
+        ]
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-pluralize-v-01073938-01",
-      "subcategorizationFrame": "Somebody ----s something"
-    }
+    ]
   },
   "ewn-reconcile-v": {
     "id": "ewn-reconcile-v",
@@ -4592,15 +4716,35 @@
       "partOfSpeech": "v",
       "writtenForm": "reconcile"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-reconcile-v-00734417-02",
+        "subcategorizationFrame": "Somebody ----s somebody PP"
+      },
+      {
+        "senses": "ewn-reconcile-v-00483404-03",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-reconcile-v-00483824-02",
+        "subcategorizationFrame": "Somebody ----s something PP"
+      },
+      {
+        "senses": "ewn-reconcile-v-00766947-01",
+        "subcategorizationFrame": "Somebody ----s"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-reconcile-v-00483824-02",
         "synset": "ewn-00483824-v",
         "dc:identifier": "reconcile%2:30:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-reconciliation-n-00185953-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-reconciliation-n-00185953-01"
+          }
+        ]
       },
       {
         "id": "ewn-reconcile-v-00483404-03",
@@ -4621,33 +4765,17 @@
         "id": "ewn-reconcile-v-00766947-01",
         "synset": "ewn-00766947-v",
         "dc:identifier": "reconcile%2:32:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-reconciliation-n-01208317-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-reconciliation-n-01208317-01"
+          }
+        ]
       },
       {
         "id": "ewn-reconcile-v-00734417-02",
         "synset": "ewn-00734417-v",
         "dc:identifier": "reconcile%2:31:00::"
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-reconcile-v-00734417-02",
-        "subcategorizationFrame": "Somebody ----s somebody PP"
-      },
-      {
-        "senses": "ewn-reconcile-v-00483404-03",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-reconcile-v-00483824-02",
-        "subcategorizationFrame": "Somebody ----s something PP"
-      },
-      {
-        "senses": "ewn-reconcile-v-00766947-01",
-        "subcategorizationFrame": "Somebody ----s"
       }
     ]
   },
@@ -4657,17 +4785,6 @@
       "partOfSpeech": "v",
       "writtenForm": "clock in"
     },
-    "Sense": [
-      {
-        "id": "ewn-clock_in-v-00968362-01",
-        "synset": "ewn-00968362-v",
-        "dc:identifier": "clock_in%2:32:00::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-clock_out-v-00968672-01"
-        }
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-clock_in-v-00968362-01",
@@ -4677,6 +4794,19 @@
         "senses": "ewn-clock_in-v-00968362-01",
         "subcategorizationFrame": "Somebody ----s PP"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-clock_in-v-00968362-01",
+        "synset": "ewn-00968362-v",
+        "dc:identifier": "clock_in%2:32:00::",
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-clock_out-v-00968672-01"
+          }
+        ]
+      }
     ]
   },
   "ewn-flout-v": {
@@ -4685,26 +4815,6 @@
       "partOfSpeech": "v",
       "writtenForm": "flout"
     },
-    "Sense": [
-      {
-        "id": "ewn-flout-v-00803444-02",
-        "synset": "ewn-00803444-v",
-        "dc:identifier": "flout%2:32:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-flouter-n-10580748-02"
-        }
-      },
-      {
-        "id": "ewn-flout-v-00851872-03",
-        "synset": "ewn-00851872-v",
-        "dc:identifier": "flout%2:32:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-flouter-n-10580748-02"
-        }
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-flout-v-00851872-03",
@@ -4714,6 +4824,30 @@
         "senses": "ewn-flout-v-00803444-02",
         "subcategorizationFrame": "Somebody ----s something"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-flout-v-00803444-02",
+        "synset": "ewn-00803444-v",
+        "dc:identifier": "flout%2:32:01::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-flouter-n-10580748-02"
+          }
+        ]
+      },
+      {
+        "id": "ewn-flout-v-00851872-03",
+        "synset": "ewn-00851872-v",
+        "dc:identifier": "flout%2:32:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-flouter-n-10580748-02"
+          }
+        ]
+      }
     ]
   },
   "ewn-ring_up-v": {
@@ -4722,17 +4856,17 @@
       "partOfSpeech": "v",
       "writtenForm": "ring up"
     },
+    "SyntacticBehaviour": {
+      "senses": "ewn-ring_up-v-01002103-01",
+      "subcategorizationFrame": "Somebody ----s something"
+    },
     "Sense": [
       {
         "id": "ewn-ring_up-v-01002103-01",
         "synset": "ewn-01002103-v",
         "dc:identifier": "ring_up%2:32:00::"
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-ring_up-v-01002103-01",
-      "subcategorizationFrame": "Somebody ----s something"
-    }
+    ]
   },
   "ewn-spiel-v": {
     "id": "ewn-spiel-v",
@@ -4740,22 +4874,6 @@
       "partOfSpeech": "v",
       "writtenForm": "spiel"
     },
-    "Sense": [
-      {
-        "id": "ewn-spiel-v-01728336-02",
-        "synset": "ewn-01728336-v",
-        "dc:identifier": "spiel%2:36:00::"
-      },
-      {
-        "id": "ewn-spiel-v-00965187-01",
-        "synset": "ewn-00965187-v",
-        "dc:identifier": "spiel%2:32:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-spiel-n-07026516-01"
-        }
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-spiel-v-01728336-02",
@@ -4769,6 +4887,24 @@
         "senses": "ewn-spiel-v-00965187-01",
         "subcategorizationFrame": "Somebody ----s PP"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-spiel-v-01728336-02",
+        "synset": "ewn-01728336-v",
+        "dc:identifier": "spiel%2:36:00::"
+      },
+      {
+        "id": "ewn-spiel-v-00965187-01",
+        "synset": "ewn-00965187-v",
+        "dc:identifier": "spiel%2:32:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-spiel-n-07026516-01"
+          }
+        ]
+      }
     ]
   },
   "ewn-unhallow-v": {
@@ -4777,13 +4913,6 @@
       "partOfSpeech": "v",
       "writtenForm": "unhallow"
     },
-    "Sense": [
-      {
-        "id": "ewn-unhallow-v-00868726-02",
-        "synset": "ewn-00868726-v",
-        "dc:identifier": "unhallow%2:32:00::"
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-unhallow-v-00868726-02",
@@ -4793,6 +4922,13 @@
         "senses": "ewn-unhallow-v-00868726-02",
         "subcategorizationFrame": "Somebody ----s somebody"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-unhallow-v-00868726-02",
+        "synset": "ewn-00868726-v",
+        "dc:identifier": "unhallow%2:32:00::"
+      }
     ]
   },
   "ewn-whoosh-v": {
@@ -4801,23 +4937,6 @@
       "partOfSpeech": "v",
       "writtenForm": "whoosh"
     },
-    "Sense": [
-      {
-        "id": "ewn-whoosh-v-02073048-02",
-        "synset": "ewn-02073048-v",
-        "dc:identifier": "whoosh%2:38:02::"
-      },
-      {
-        "id": "ewn-whoosh-v-02072942-02",
-        "synset": "ewn-02072942-v",
-        "dc:identifier": "whoosh%2:38:01::"
-      },
-      {
-        "id": "ewn-whoosh-v-02072805-01",
-        "synset": "ewn-02072805-v",
-        "dc:identifier": "whoosh%2:38:00::"
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-whoosh-v-02072805-01",
@@ -4835,6 +4954,23 @@
         "senses": "ewn-whoosh-v-02072805-01 ewn-whoosh-v-02072942-02",
         "subcategorizationFrame": "Something is ----ing PP"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-whoosh-v-02073048-02",
+        "synset": "ewn-02073048-v",
+        "dc:identifier": "whoosh%2:38:02::"
+      },
+      {
+        "id": "ewn-whoosh-v-02072942-02",
+        "synset": "ewn-02072942-v",
+        "dc:identifier": "whoosh%2:38:01::"
+      },
+      {
+        "id": "ewn-whoosh-v-02072805-01",
+        "synset": "ewn-02072805-v",
+        "dc:identifier": "whoosh%2:38:00::"
+      }
     ]
   },
   "ewn-gyrate-v": {
@@ -4843,32 +4979,6 @@
       "partOfSpeech": "v",
       "writtenForm": "gyrate"
     },
-    "Sense": [
-      {
-        "id": "ewn-gyrate-v-02053139-01",
-        "synset": "ewn-02053139-v",
-        "dc:identifier": "gyrate%2:38:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-gyration-n-00343581-01"
-        }
-      },
-      {
-        "id": "ewn-gyrate-v-02050704-05",
-        "synset": "ewn-02050704-v",
-        "dc:identifier": "gyrate%2:38:01::",
-        "SenseRelation": [
-          {
-            "relType": "derivation",
-            "target": "ewn-gyration-n-07455579-03"
-          },
-          {
-            "relType": "derivation",
-            "target": "ewn-gyration-n-00343581-01"
-          }
-        ]
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-gyrate-v-02053139-01",
@@ -4886,6 +4996,34 @@
         "senses": "ewn-gyrate-v-02050704-05 ewn-gyrate-v-02053139-01",
         "subcategorizationFrame": "Something is ----ing PP"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-gyrate-v-02053139-01",
+        "synset": "ewn-02053139-v",
+        "dc:identifier": "gyrate%2:38:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-gyration-n-00343581-01"
+          }
+        ]
+      },
+      {
+        "id": "ewn-gyrate-v-02050704-05",
+        "synset": "ewn-02050704-v",
+        "dc:identifier": "gyrate%2:38:01::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-gyration-n-07455579-03"
+          },
+          {
+            "relType": "derivation",
+            "target": "ewn-gyration-n-00343581-01"
+          }
+        ]
+      }
     ]
   },
   "ewn-channelize-v": {
@@ -4894,6 +5032,24 @@
       "partOfSpeech": "v",
       "writtenForm": "channelize"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-channelize-v-01438013-05",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-channelize-v-01935739-09",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-channelize-v-01935739-09 ewn-channelize-v-01371724-01 ewn-channelize-v-01438013-05 ewn-channelize-v-01760865-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-channelize-v-01935739-09 ewn-channelize-v-01438013-05",
+        "subcategorizationFrame": "Somebody ----s something PP"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-channelize-v-01935739-09",
@@ -4932,28 +5088,12 @@
         "id": "ewn-channelize-v-01371724-01",
         "synset": "ewn-01371724-v",
         "dc:identifier": "channelize%2:35:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-channel-n-03009709-01"
-        }
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-channelize-v-01438013-05",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-channelize-v-01935739-09",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-channelize-v-01935739-09 ewn-channelize-v-01371724-01 ewn-channelize-v-01438013-05 ewn-channelize-v-01760865-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-channelize-v-01935739-09 ewn-channelize-v-01438013-05",
-        "subcategorizationFrame": "Somebody ----s something PP"
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-channel-n-03009709-01"
+          }
+        ]
       }
     ]
   },
@@ -4962,6 +5102,10 @@
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "quickstep"
+    },
+    "SyntacticBehaviour": {
+      "senses": "ewn-quickstep-v-01903151-01",
+      "subcategorizationFrame": "Somebody ----s"
     },
     "Form": [
       {
@@ -4976,16 +5120,14 @@
         "id": "ewn-quickstep-v-01903151-01",
         "synset": "ewn-01903151-v",
         "dc:identifier": "quickstep%2:38:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-quickstep-n-00538001-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-quickstep-n-00538001-01"
+          }
+        ]
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-quickstep-v-01903151-01",
-      "subcategorizationFrame": "Somebody ----s"
-    }
+    ]
   },
   "ewn-inspect-v": {
     "id": "ewn-inspect-v",
@@ -4993,31 +5135,6 @@
       "partOfSpeech": "v",
       "writtenForm": "inspect"
     },
-    "Sense": [
-      {
-        "id": "ewn-inspect-v-02169987-01",
-        "synset": "ewn-02169987-v",
-        "dc:identifier": "inspect%2:39:00::"
-      },
-      {
-        "id": "ewn-inspect-v-01847990-02",
-        "synset": "ewn-01847990-v",
-        "dc:identifier": "inspect%2:38:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-inspection-n-00880949-01"
-        }
-      },
-      {
-        "id": "ewn-inspect-v-00698828-04",
-        "synset": "ewn-00698828-v",
-        "dc:identifier": "inspect%2:31:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-inspector-n-10087775-02"
-        }
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-inspect-v-02169987-01",
@@ -5030,6 +5147,35 @@
       {
         "senses": "ewn-inspect-v-01847990-02 ewn-inspect-v-02169987-01 ewn-inspect-v-00698828-04",
         "subcategorizationFrame": "Somebody ----s something"
+      }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-inspect-v-02169987-01",
+        "synset": "ewn-02169987-v",
+        "dc:identifier": "inspect%2:39:00::"
+      },
+      {
+        "id": "ewn-inspect-v-01847990-02",
+        "synset": "ewn-01847990-v",
+        "dc:identifier": "inspect%2:38:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-inspection-n-00880949-01"
+          }
+        ]
+      },
+      {
+        "id": "ewn-inspect-v-00698828-04",
+        "synset": "ewn-00698828-v",
+        "dc:identifier": "inspect%2:31:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-inspector-n-10087775-02"
+          }
+        ]
       }
     ]
   },
@@ -5250,10 +5396,12 @@
         "id": "ewn-Persia-n-08930441-03",
         "synset": "ewn-08930441-n",
         "dc:identifier": "persia%1:15:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-Persian-a-03086619-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-Persian-a-03086619-02"
+          }
+        ]
       }
     ]
   },
@@ -5408,10 +5556,12 @@
         "id": "ewn-centroid-n-08540628-01",
         "synset": "ewn-08540628-n",
         "dc:identifier": "centroid%1:15:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-centroidal-a-02698868-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-centroidal-a-02698868-01"
+          }
+        ]
       }
     ]
   },
@@ -5562,10 +5712,12 @@
         "id": "ewn-Plexiglas-n-14618354-01",
         "synset": "ewn-14618354-n",
         "dc:identifier": "plexiglas%1:27:00::",
-        "SenseRelation": {
-          "relType": "exemplifies",
-          "target": "ewn-trademark-n-06864792-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "exemplifies",
+            "target": "ewn-trademark-n-06864792-01"
+          }
+        ]
       }
     ]
   },
@@ -5650,10 +5802,12 @@
         "id": "ewn-minium-n-15027896-02",
         "synset": "ewn-15027896-n",
         "dc:identifier": "minium%1:27:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-miniate-v-01700788-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-miniate-v-01700788-01"
+          }
+        ]
       }
     ]
   },
@@ -5710,28 +5864,34 @@
         "id": "ewn-bleach-n-04968313-01",
         "synset": "ewn-04968313-n",
         "dc:identifier": "bleach%1:07:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-bleach-v-00280592-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-bleach-v-00280592-01"
+          }
+        ]
       },
       {
         "id": "ewn-bleach-n-14803364-02",
         "synset": "ewn-14803364-n",
         "dc:identifier": "bleach%1:27:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-bleach-v-00280235-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-bleach-v-00280235-01"
+          }
+        ]
       },
       {
         "id": "ewn-bleach-n-00274853-01",
         "synset": "ewn-00274853-n",
         "dc:identifier": "bleach%1:04:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-bleach-v-00280235-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-bleach-v-00280235-01"
+          }
+        ]
       }
     ]
   },
@@ -5811,17 +5971,17 @@
       "partOfSpeech": "v",
       "writtenForm": "sponge off"
     },
+    "SyntacticBehaviour": {
+      "senses": "ewn-sponge_off-v-01253359-02",
+      "subcategorizationFrame": "Somebody ----s something"
+    },
     "Sense": [
       {
         "id": "ewn-sponge_off-v-01253359-02",
         "synset": "ewn-01253359-v",
         "dc:identifier": "sponge_off%2:35:00::"
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-sponge_off-v-01253359-02",
-      "subcategorizationFrame": "Somebody ----s something"
-    }
+    ]
   },
   "ewn-tether-v": {
     "id": "ewn-tether-v",
@@ -5829,17 +5989,6 @@
       "partOfSpeech": "v",
       "writtenForm": "tether"
     },
-    "Sense": [
-      {
-        "id": "ewn-tether-v-01292612-01",
-        "synset": "ewn-01292612-v",
-        "dc:identifier": "tether%2:35:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-tether-n-03658258-02"
-        }
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-tether-v-01292612-01",
@@ -5849,6 +5998,19 @@
         "senses": "ewn-tether-v-01292612-01",
         "subcategorizationFrame": "Somebody ----s something PP"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-tether-v-01292612-01",
+        "synset": "ewn-01292612-v",
+        "dc:identifier": "tether%2:35:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-tether-n-03658258-02"
+          }
+        ]
+      }
     ]
   },
   "ewn-do_the_dishes-v": {
@@ -5857,17 +6019,17 @@
       "partOfSpeech": "v",
       "writtenForm": "do the dishes"
     },
+    "SyntacticBehaviour": {
+      "senses": "ewn-do_the_dishes-v-01535954-02",
+      "subcategorizationFrame": "Somebody ----s"
+    },
     "Sense": [
       {
         "id": "ewn-do_the_dishes-v-01535954-02",
         "synset": "ewn-01535954-v",
         "dc:identifier": "do_the_dishes%2:35:00::"
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-do_the_dishes-v-01535954-02",
-      "subcategorizationFrame": "Somebody ----s"
-    }
+    ]
   },
   "ewn-stucco-v": {
     "id": "ewn-stucco-v",
@@ -5875,30 +6037,34 @@
       "partOfSpeech": "v",
       "writtenForm": "stucco"
     },
+    "SyntacticBehaviour": {
+      "senses": "ewn-stucco-v-01263935-01 ewn-stucco-v-01682174-01",
+      "subcategorizationFrame": "Somebody ----s something"
+    },
     "Sense": [
       {
         "id": "ewn-stucco-v-01682174-01",
         "synset": "ewn-01682174-v",
         "dc:identifier": "stucco%2:36:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-stucco-n-15086624-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-stucco-n-15086624-01"
+          }
+        ]
       },
       {
         "id": "ewn-stucco-v-01263935-01",
         "synset": "ewn-01263935-v",
         "dc:identifier": "stucco%2:35:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-stucco-n-15086624-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-stucco-n-15086624-01"
+          }
+        ]
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-stucco-v-01263935-01 ewn-stucco-v-01682174-01",
-      "subcategorizationFrame": "Somebody ----s something"
-    }
+    ]
   },
   "ewn-appointment_calendar-n": {
     "id": "ewn-appointment_calendar-n",
@@ -5953,9 +6119,11 @@
       "partOfSpeech": "n",
       "writtenForm": "arcanum"
     },
-    "Form": {
-      "writtenForm": "arcana"
-    },
+    "Form": [
+      {
+        "writtenForm": "arcana"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-arcanum-n-06685698-02",
@@ -6045,19 +6213,23 @@
         "id": "ewn-discussion-n-07152793-01",
         "synset": "ewn-07152793-n",
         "dc:identifier": "discussion%1:10:02::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-discuss-v-01036184-03"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-discuss-v-01036184-03"
+          }
+        ]
       },
       {
         "id": "ewn-discussion-n-07155367-01",
         "synset": "ewn-07155367-n",
         "dc:identifier": "discussion%1:10:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-discuss-v-00815640-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-discuss-v-00815640-02"
+          }
+        ]
       }
     ]
   },
@@ -6133,10 +6305,12 @@
         "id": "ewn-put-on-n-00755028-06",
         "synset": "ewn-00755028-n",
         "dc:identifier": "put-on%1:04:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-put_on-v-00856586-07"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-put_on-v-00856586-07"
+          }
+        ]
       },
       {
         "id": "ewn-put-on-n-00428583-06",
@@ -6269,10 +6443,12 @@
         "id": "ewn-jejunity-n-04798663-01",
         "synset": "ewn-04798663-n",
         "dc:identifier": "jejunity%1:07:02::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-jejune-s-02344882-04"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-jejune-s-02344882-04"
+          }
+        ]
       }
     ]
   },
@@ -6508,9 +6684,11 @@
       "partOfSpeech": "n",
       "writtenForm": "grosz"
     },
-    "Form": {
-      "writtenForm": "groszy"
-    },
+    "Form": [
+      {
+        "writtenForm": "groszy"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-grosz-n-13732986-01",
@@ -6558,10 +6736,12 @@
         "id": "ewn-capillarity-n-11453920-01",
         "synset": "ewn-11453920-n",
         "dc:identifier": "capillarity%1:19:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-capillary-s-02421676-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-capillary-s-02421676-01"
+          }
+        ]
       }
     ]
   },
@@ -6585,15 +6765,27 @@
       "partOfSpeech": "v",
       "writtenForm": "replay"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-replay-v-01078276-01 ewn-replay-v-01729407-01 ewn-replay-v-01742228-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-replay-v-01083394-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-replay-v-01742228-02",
         "synset": "ewn-01742228-v",
         "dc:identifier": "replay%2:36:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-replay-n-01022059-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-replay-n-01022059-01"
+          }
+        ]
       },
       {
         "id": "ewn-replay-v-01729407-01",
@@ -6604,29 +6796,23 @@
         "id": "ewn-replay-v-01083394-01",
         "synset": "ewn-01083394-v",
         "dc:identifier": "replay%2:33:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-replay-n-07357795-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-replay-n-07357795-01"
+          }
+        ]
       },
       {
         "id": "ewn-replay-v-01078276-01",
         "synset": "ewn-01078276-v",
         "dc:identifier": "replay%2:33:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-replay-n-07357795-01"
-        }
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-replay-v-01078276-01 ewn-replay-v-01729407-01 ewn-replay-v-01742228-02",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-replay-v-01083394-01",
-        "subcategorizationFrame": "Somebody ----s somebody"
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-replay-n-07357795-01"
+          }
+        ]
       }
     ]
   },
@@ -6636,13 +6822,6 @@
       "partOfSpeech": "v",
       "writtenForm": "bluff out"
     },
-    "Sense": [
-      {
-        "id": "ewn-bluff_out-v-01079346-02",
-        "synset": "ewn-01079346-v",
-        "dc:identifier": "bluff_out%2:33:00::"
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-bluff_out-v-01079346-02",
@@ -6652,6 +6831,13 @@
         "senses": "ewn-bluff_out-v-01079346-02",
         "subcategorizationFrame": "Somebody ----s somebody"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-bluff_out-v-01079346-02",
+        "synset": "ewn-01079346-v",
+        "dc:identifier": "bluff_out%2:33:00::"
+      }
     ]
   },
   "ewn-demolish-v": {
@@ -6660,6 +6846,24 @@
       "partOfSpeech": "v",
       "writtenForm": "demolish"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-demolish-v-01660001-01 ewn-demolish-v-01660252-01",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-demolish-v-01660252-01 ewn-demolish-v-01199565-02",
+        "subcategorizationFrame": "Something ----s somebody"
+      },
+      {
+        "senses": "ewn-demolish-v-01660001-01 ewn-demolish-v-01660252-01",
+        "subcategorizationFrame": "Somebody ----s something"
+      },
+      {
+        "senses": "ewn-demolish-v-01085766-01 ewn-demolish-v-01660252-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-demolish-v-01660001-01",
@@ -6694,28 +6898,12 @@
         "id": "ewn-demolish-v-01085766-01",
         "synset": "ewn-01085766-v",
         "dc:identifier": "demolish%2:33:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-demolition-n-01252030-01"
-        }
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-demolish-v-01660001-01 ewn-demolish-v-01660252-01",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-demolish-v-01660252-01 ewn-demolish-v-01199565-02",
-        "subcategorizationFrame": "Something ----s somebody"
-      },
-      {
-        "senses": "ewn-demolish-v-01660001-01 ewn-demolish-v-01660252-01",
-        "subcategorizationFrame": "Somebody ----s something"
-      },
-      {
-        "senses": "ewn-demolish-v-01085766-01 ewn-demolish-v-01660252-01",
-        "subcategorizationFrame": "Somebody ----s somebody"
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-demolition-n-01252030-01"
+          }
+        ]
       }
     ]
   },
@@ -6725,6 +6913,20 @@
       "partOfSpeech": "v",
       "writtenForm": "strafe"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-strafe-v-01138568-01",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-strafe-v-01138568-01",
+        "subcategorizationFrame": "Something ----s somebody"
+      },
+      {
+        "senses": "ewn-strafe-v-01138568-01",
+        "subcategorizationFrame": "Somebody ----s somebody"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-strafe-v-01138568-01",
@@ -6740,20 +6942,6 @@
             "target": "ewn-strafe-n-01248881-01"
           }
         ]
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-strafe-v-01138568-01",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-strafe-v-01138568-01",
-        "subcategorizationFrame": "Something ----s somebody"
-      },
-      {
-        "senses": "ewn-strafe-v-01138568-01",
-        "subcategorizationFrame": "Somebody ----s somebody"
       }
     ]
   },
@@ -6967,10 +7155,12 @@
         "id": "ewn-good-for-naught-n-10155473-06",
         "synset": "ewn-10155473-n",
         "dc:identifier": "good-for-naught%1:18:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-good-for-naught-s-02512593-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-good-for-naught-s-02512593-02"
+          }
+        ]
       }
     ]
   },
@@ -6999,10 +7189,12 @@
         "id": "ewn-Chartist-n-09930509-01",
         "synset": "ewn-09930509-n",
         "dc:identifier": "chartist%1:18:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-Chartism-n-05965154-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-Chartism-n-05965154-01"
+          }
+        ]
       }
     ]
   },
@@ -7101,10 +7293,12 @@
         "id": "ewn-Sappho-n-11301335-01",
         "synset": "ewn-11301335-n",
         "dc:identifier": "sappho%1:18:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-Sapphic-s-02027708-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-Sapphic-s-02027708-01"
+          }
+        ]
       }
     ]
   },
@@ -7297,10 +7491,12 @@
         "id": "ewn-clown-n-09950334-01",
         "synset": "ewn-09950334-n",
         "dc:identifier": "clown%1:18:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-clown-v-00105532-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-clown-v-00105532-01"
+          }
+        ]
       }
     ]
   },
@@ -7329,10 +7525,12 @@
         "id": "ewn-aggressor-n-09840655-02",
         "synset": "ewn-09840655-n",
         "dc:identifier": "aggressor%1:18:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-aggress-v-01120867-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-aggress-v-01120867-02"
+          }
+        ]
       },
       {
         "id": "ewn-aggressor-n-09798117-01",
@@ -7465,10 +7663,12 @@
         "id": "ewn-heir_presumptive-n-10188834-01",
         "synset": "ewn-10188834-n",
         "dc:identifier": "heir_presumptive%1:18:00::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-heir_apparent-n-10188430-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-heir_apparent-n-10188430-01"
+          }
+        ]
       }
     ]
   },
@@ -7525,10 +7725,12 @@
         "id": "ewn-booker-n-09885360-01",
         "synset": "ewn-09885360-n",
         "dc:identifier": "booker%1:18:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-book-v-00680696-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-book-v-00680696-01"
+          }
+        ]
       }
     ]
   },
@@ -7627,10 +7829,12 @@
         "id": "ewn-attempter-n-10748650-02",
         "synset": "ewn-10748650-n",
         "dc:identifier": "attempter%1:18:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-attempt-v-02535833-03"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-attempt-v-02535833-03"
+          }
+        ]
       }
     ]
   },
@@ -7701,10 +7905,12 @@
         "id": "ewn-victimiser-n-10772387-02",
         "synset": "ewn-10772387-n",
         "dc:identifier": "victimiser%1:18:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-victimise-v-02580280-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-victimise-v-02580280-02"
+          }
+        ]
       }
     ]
   },
@@ -7859,10 +8065,12 @@
         "id": "ewn-dying-n-15168437-02",
         "synset": "ewn-15168437-n",
         "dc:identifier": "dying%1:28:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-die-v-00355499-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-die-v-00355499-01"
+          }
+        ]
       }
     ]
   },
@@ -7891,10 +8099,12 @@
         "id": "ewn-bygone-n-15146095-01",
         "synset": "ewn-15146095-n",
         "dc:identifier": "bygone%1:28:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-bygone-s-01733151-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-bygone-s-01733151-01"
+          }
+        ]
       }
     ]
   },
@@ -7937,10 +8147,12 @@
         "id": "ewn-multicultural-a-02884080-01",
         "synset": "ewn-02884080-a",
         "dc:identifier": "multicultural%3:01:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-multiculturalism-n-05973672-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-multiculturalism-n-05973672-01"
+          }
+        ]
       }
     ]
   },
@@ -8027,10 +8239,12 @@
         "id": "ewn-Middle_Eastern-a-02636796-01",
         "synset": "ewn-02636796-a",
         "dc:identifier": "middle_eastern%3:01:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-Middle_East-n-08809019-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-Middle_East-n-08809019-01"
+          }
+        ]
       }
     ]
   },
@@ -8045,10 +8259,12 @@
         "id": "ewn-orthopaedic-a-03106525-02",
         "synset": "ewn-03106525-a",
         "dc:identifier": "orthopaedic%3:01:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-orthopedics-n-06073656-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-orthopedics-n-06073656-01"
+          }
+        ]
       }
     ]
   },
@@ -8195,10 +8411,12 @@
         "id": "ewn-double-humped-a-02830414-02",
         "synset": "ewn-02830414-a",
         "dc:identifier": "double-humped%3:01:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-hump-n-13917127-03"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-hump-n-13917127-03"
+          }
+        ]
       }
     ]
   },
@@ -8237,10 +8455,12 @@
         "id": "ewn-appellative-a-02646150-01",
         "synset": "ewn-02646150-a",
         "dc:identifier": "appellative%3:01:00::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-noun-n-06330286-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-noun-n-06330286-01"
+          }
+        ]
       }
     ]
   },
@@ -8270,10 +8490,12 @@
         "id": "ewn-filial-a-01726916-01",
         "synset": "ewn-01726916-a",
         "dc:identifier": "filial%3:00:00::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-parental-a-01726746-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-parental-a-01726746-01"
+          }
+        ]
       }
     ]
   },
@@ -8288,10 +8510,12 @@
         "id": "ewn-bimetallic-a-02675059-02",
         "synset": "ewn-02675059-a",
         "dc:identifier": "bimetallic%3:01:02::",
-        "SenseRelation": {
-          "relType": "pertainym",
-          "target": "ewn-bimetallism-n-13394919-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "pertainym",
+            "target": "ewn-bimetallism-n-13394919-01"
+          }
+        ]
       }
     ]
   },
@@ -8325,6 +8549,10 @@
       "partOfSpeech": "v",
       "writtenForm": "defoliate"
     },
+    "SyntacticBehaviour": {
+      "senses": "ewn-defoliate-v-00196157-01",
+      "subcategorizationFrame": "Somebody ----s something"
+    },
     "Sense": [
       {
         "id": "ewn-defoliate-v-00196157-01",
@@ -8349,11 +8577,7 @@
           }
         ]
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-defoliate-v-00196157-01",
-      "subcategorizationFrame": "Somebody ----s something"
-    }
+    ]
   },
   "ewn-narrow_down-v": {
     "id": "ewn-narrow_down-v",
@@ -8361,22 +8585,6 @@
       "partOfSpeech": "v",
       "writtenForm": "narrow down"
     },
-    "Sense": [
-      {
-        "id": "ewn-narrow_down-v-00717446-04",
-        "synset": "ewn-00717446-v",
-        "dc:identifier": "narrow_down%2:31:00::"
-      },
-      {
-        "id": "ewn-narrow_down-v-00438402-04",
-        "synset": "ewn-00438402-v",
-        "dc:identifier": "narrow_down%2:30:01::",
-        "SenseRelation": {
-          "relType": "also",
-          "target": "ewn-narrow-v-00305890-01"
-        }
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-narrow_down-v-00717446-04",
@@ -8402,6 +8610,24 @@
         "senses": "ewn-narrow_down-v-00438402-04",
         "subcategorizationFrame": "Something ----s"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-narrow_down-v-00717446-04",
+        "synset": "ewn-00717446-v",
+        "dc:identifier": "narrow_down%2:31:00::"
+      },
+      {
+        "id": "ewn-narrow_down-v-00438402-04",
+        "synset": "ewn-00438402-v",
+        "dc:identifier": "narrow_down%2:30:01::",
+        "SenseRelation": [
+          {
+            "relType": "also",
+            "target": "ewn-narrow-v-00305890-01"
+          }
+        ]
+      }
     ]
   },
   "ewn-be_born-v": {
@@ -8410,6 +8636,16 @@
       "partOfSpeech": "v",
       "writtenForm": "be born"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-be_born-v-00361585-01",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-be_born-v-00361585-01",
+        "subcategorizationFrame": "Somebody ----s"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-be_born-v-00361585-01",
@@ -8434,16 +8670,6 @@
           }
         ]
       }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-be_born-v-00361585-01",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-be_born-v-00361585-01",
-        "subcategorizationFrame": "Somebody ----s"
-      }
     ]
   },
   "ewn-keratinize-v": {
@@ -8452,6 +8678,16 @@
       "partOfSpeech": "v",
       "writtenForm": "keratinize"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-keratinize-v-00577761-01",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-keratinize-v-00577937-01",
+        "subcategorizationFrame": "Something ----s something"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-keratinize-v-00577937-01",
@@ -8462,20 +8698,12 @@
         "id": "ewn-keratinize-v-00577761-01",
         "synset": "ewn-00577761-v",
         "dc:identifier": "keratinize%2:30:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-keratinization-n-13526452-01"
-        }
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-keratinize-v-00577761-01",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-keratinize-v-00577937-01",
-        "subcategorizationFrame": "Something ----s something"
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-keratinization-n-13526452-01"
+          }
+        ]
       }
     ]
   },
@@ -8510,10 +8738,12 @@
         "id": "ewn-mercenary-a-s-01713534-01",
         "synset": "ewn-01713534-s",
         "dc:identifier": "mercenary%5:00:00:paid:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-mercenary-n-10329281-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-mercenary-n-10329281-01"
+          }
+        ]
       },
       {
         "id": "ewn-mercenary-s-00485804-02",
@@ -8533,10 +8763,12 @@
         "id": "ewn-affectional-s-00857434-01",
         "synset": "ewn-00857434-s",
         "dc:identifier": "affectional%5:00:00:emotional:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-affect-n-07495066-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-affect-n-07495066-01"
+          }
+        ]
       }
     ]
   },
@@ -8589,10 +8821,12 @@
         "id": "ewn-feminine-a-01488294-02",
         "synset": "ewn-01488294-a",
         "dc:identifier": "feminine%3:00:04::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-feminineness-n-05016127-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-feminineness-n-05016127-02"
+          }
+        ]
       }
     ]
   },
@@ -8817,19 +9051,23 @@
         "id": "ewn-lightheaded-s-02555295-05",
         "synset": "ewn-02555295-s",
         "dc:identifier": "lightheaded%5:00:00:ill:01",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-lightheadedness-n-14395918-03"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-lightheadedness-n-14395918-03"
+          }
+        ]
       },
       {
         "id": "ewn-lightheaded-s-02128108-07",
         "synset": "ewn-02128108-s",
         "dc:identifier": "lightheaded%5:00:00:frivolous:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-lightheadedness-n-04901639-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-lightheadedness-n-04901639-01"
+          }
+        ]
       }
     ]
   },
@@ -8852,10 +9090,12 @@
         "id": "ewn-costly-s-00937210-02",
         "synset": "ewn-00937210-s",
         "dc:identifier": "costly%5:00:02:expensive:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-cost-n-05171334-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-cost-n-05171334-02"
+          }
+        ]
       },
       {
         "id": "ewn-costly-s-00936868-01",
@@ -8899,10 +9139,12 @@
         "id": "ewn-inapt-s-01004599-04",
         "synset": "ewn-01004599-s",
         "dc:identifier": "inapt%5:00:00:infelicitous:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-inaptness-n-04728704-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-inaptness-n-04728704-01"
+          }
+        ]
       }
     ]
   },
@@ -8931,10 +9173,12 @@
         "id": "ewn-tactless-s-00064212-02",
         "synset": "ewn-00064212-s",
         "dc:identifier": "tactless%5:00:00:maladroit:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-tactlessness-n-04853474-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-tactlessness-n-04853474-01"
+          }
+        ]
       }
     ]
   },
@@ -8963,10 +9207,12 @@
         "id": "ewn-indistinguishable-s-02071531-02",
         "synset": "ewn-02071531-s",
         "dc:identifier": "indistinguishable%5:00:00:same:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-indistinguishability-n-04750264-03"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-indistinguishability-n-04750264-03"
+          }
+        ]
       }
     ]
   },
@@ -9015,10 +9261,12 @@
         "id": "ewn-straightforward-s-00900516-01",
         "synset": "ewn-00900516-s",
         "dc:identifier": "straightforward%5:00:00:unequivocal:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-straightforwardness-n-04925675-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-straightforwardness-n-04925675-02"
+          }
+        ]
       },
       {
         "id": "ewn-straightforward-s-00769662-02",
@@ -9039,10 +9287,12 @@
         "id": "ewn-straightforward-s-02326406-02",
         "synset": "ewn-02326406-s",
         "dc:identifier": "straightforward%5:00:00:straight:04",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-straightforwardness-n-04925675-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-straightforwardness-n-04925675-02"
+          }
+        ]
       },
       {
         "id": "ewn-straightforward-s-00765277-01",
@@ -9231,10 +9481,12 @@
         "id": "ewn-unconcerned-a-00547235-01",
         "synset": "ewn-00547235-a",
         "dc:identifier": "unconcerned%3:00:00::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-concerned-a-00545823-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-concerned-a-00545823-01"
+          }
+        ]
       }
     ]
   },
@@ -9263,10 +9515,12 @@
         "id": "ewn-hermaphrodite-s-01482488-02",
         "synset": "ewn-01482488-s",
         "dc:identifier": "hermaphrodite%5:00:00:androgynous:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-hermaphrodite-n-10191752-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-hermaphrodite-n-10191752-01"
+          }
+        ]
       }
     ]
   },
@@ -9296,19 +9550,23 @@
         "id": "ewn-untreated-a-01962720-01",
         "synset": "ewn-01962720-a",
         "dc:identifier": "untreated%3:00:02::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-treated-a-01962094-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-treated-a-01962094-01"
+          }
+        ]
       },
       {
         "id": "ewn-untreated-a-01961603-01",
         "synset": "ewn-01961603-a",
         "dc:identifier": "untreated%3:00:00::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-treated-a-01960457-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-treated-a-01960457-01"
+          }
+        ]
       }
     ]
   },
@@ -9469,10 +9727,12 @@
         "id": "ewn-nonrepetitive-a-01971600-01",
         "synset": "ewn-01971600-a",
         "dc:identifier": "nonrepetitive%3:00:00::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-repetitive-a-01971192-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-repetitive-a-01971192-01"
+          }
+        ]
       }
     ]
   },
@@ -9520,10 +9780,12 @@
         "id": "ewn-indolent-s-00295445-02",
         "synset": "ewn-00295445-s",
         "dc:identifier": "indolent%5:00:00:idle:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-indolence-n-04644465-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-indolence-n-04644465-01"
+          }
+        ]
       },
       {
         "id": "ewn-indolent-s-00038373-01",
@@ -9557,10 +9819,12 @@
         "id": "ewn-matt-s-00284838-03",
         "synset": "ewn-00284838-s",
         "dc:identifier": "matt%5:00:00:dull:02",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-matt-n-04963287-05"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-matt-n-04963287-05"
+          }
+        ]
       }
     ]
   },
@@ -9759,10 +10023,12 @@
         "id": "ewn-profane-s-02019844-02",
         "synset": "ewn-02019844-s",
         "dc:identifier": "profane%5:00:00:irreverent:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-profaneness-n-06217609-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-profaneness-n-06217609-01"
+          }
+        ]
       }
     ]
   },
@@ -9810,10 +10076,12 @@
         "id": "ewn-fortissimo-s-01461939-01",
         "synset": "ewn-01461939-s",
         "dc:identifier": "fortissimo%5:00:00:forte:00",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-fortissimo-n-07059160-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-fortissimo-n-07059160-01"
+          }
+        ]
       }
     ]
   },
@@ -9941,10 +10209,12 @@
         "id": "ewn-warm-blooded-a-02542980-01",
         "synset": "ewn-02542980-a",
         "dc:identifier": "warm-blooded%3:00:00::",
-        "SenseRelation": {
-          "relType": "antonym",
-          "target": "ewn-cold-blooded-a-02543370-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "antonym",
+            "target": "ewn-cold-blooded-a-02543370-01"
+          }
+        ]
       }
     ]
   },
@@ -10081,10 +10351,12 @@
         "id": "ewn-diving-n-00443966-02",
         "synset": "ewn-00443966-n",
         "dc:identifier": "diving%1:04:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-dive-v-01966872-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-dive-v-01966872-01"
+          }
+        ]
       }
     ]
   },
@@ -10099,10 +10371,12 @@
         "id": "ewn-abatement-n-07382856-05",
         "synset": "ewn-07382856-n",
         "dc:identifier": "abatement%1:11:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-abate-v-00245945-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-abate-v-00245945-01"
+          }
+        ]
       },
       {
         "id": "ewn-abatement-n-00362159-01",
@@ -10159,13 +10433,6 @@
       "partOfSpeech": "v",
       "writtenForm": "touch a chord"
     },
-    "Sense": [
-      {
-        "id": "ewn-touch_a_chord-v-01763770-02",
-        "synset": "ewn-01763770-v",
-        "dc:identifier": "touch_a_chord%2:37:00::"
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-touch_a_chord-v-01763770-02",
@@ -10174,6 +10441,13 @@
       {
         "senses": "ewn-touch_a_chord-v-01763770-02",
         "subcategorizationFrame": "Somebody ----s"
+      }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-touch_a_chord-v-01763770-02",
+        "synset": "ewn-01763770-v",
+        "dc:identifier": "touch_a_chord%2:37:00::"
       }
     ]
   },
@@ -10258,9 +10532,15 @@
       "partOfSpeech": "v",
       "writtenForm": "gild"
     },
-    "Form": {
-      "writtenForm": "gilt"
+    "SyntacticBehaviour": {
+      "senses": "ewn-gild-v-01686996-01",
+      "subcategorizationFrame": "Somebody ----s something"
     },
+    "Form": [
+      {
+        "writtenForm": "gilt"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-gild-v-01686996-01",
@@ -10277,17 +10557,17 @@
           }
         ]
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-gild-v-01686996-01",
-      "subcategorizationFrame": "Somebody ----s something"
-    }
+    ]
   },
   "ewn-counterfeit-v": {
     "id": "ewn-counterfeit-v",
     "Lemma": {
       "partOfSpeech": "v",
       "writtenForm": "counterfeit"
+    },
+    "SyntacticBehaviour": {
+      "senses": "ewn-counterfeit-v-01657814-03",
+      "subcategorizationFrame": "Somebody ----s something"
     },
     "Sense": [
       {
@@ -10305,11 +10585,7 @@
           }
         ]
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-counterfeit-v-01657814-03",
-      "subcategorizationFrame": "Somebody ----s something"
-    }
+    ]
   },
   "ewn-slinging-n": {
     "id": "ewn-slinging-n",
@@ -10322,10 +10598,12 @@
         "id": "ewn-slinging-n-00107836-01",
         "synset": "ewn-00107836-n",
         "dc:identifier": "slinging%1:04:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-sling-v-01516980-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-sling-v-01516980-01"
+          }
+        ]
       }
     ]
   },
@@ -10598,10 +10876,12 @@
         "id": "ewn-commuting-n-00316526-02",
         "synset": "ewn-00316526-n",
         "dc:identifier": "commuting%1:04:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-commute-v-02065774-01"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-commute-v-02065774-01"
+          }
+        ]
       }
     ]
   },
@@ -10682,10 +10962,12 @@
         "id": "ewn-urination-n-13537161-02",
         "synset": "ewn-13537161-n",
         "dc:identifier": "urination%1:22:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-urinate-v-00071765-02"
-        }
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-urinate-v-00071765-02"
+          }
+        ]
       }
     ]
   },
@@ -10709,9 +10991,11 @@
       "partOfSpeech": "n",
       "writtenForm": "trapezohedron"
     },
-    "Form": {
-      "writtenForm": "trapezohedra"
-    },
+    "Form": [
+      {
+        "writtenForm": "trapezohedra"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-trapezohedron-n-13941750-01",
@@ -10726,6 +11010,20 @@
       "partOfSpeech": "v",
       "writtenForm": "solarise"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-solarise-v-02118539-02",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-solarise-v-02118916-02",
+        "subcategorizationFrame": "Something ----s something"
+      },
+      {
+        "senses": "ewn-solarise-v-02117029-04 ewn-solarise-v-02118333-02",
+        "subcategorizationFrame": "Somebody ----s something"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-solarise-v-02118916-02",
@@ -10746,24 +11044,12 @@
         "id": "ewn-solarise-v-02117029-04",
         "synset": "ewn-02117029-v",
         "dc:identifier": "solarise%2:39:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-solarisation-n-05051538-02"
-        }
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-solarise-v-02118539-02",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-solarise-v-02118916-02",
-        "subcategorizationFrame": "Something ----s something"
-      },
-      {
-        "senses": "ewn-solarise-v-02117029-04 ewn-solarise-v-02118333-02",
-        "subcategorizationFrame": "Somebody ----s something"
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-solarisation-n-05051538-02"
+          }
+        ]
       }
     ]
   },
@@ -10773,6 +11059,16 @@
       "partOfSpeech": "v",
       "writtenForm": "occult"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-occult-v-02154041-01",
+        "subcategorizationFrame": "Something ----s"
+      },
+      {
+        "senses": "ewn-occult-v-02149859-01 ewn-occult-v-02162770-02",
+        "subcategorizationFrame": "Something ----s something"
+      }
+    ],
     "Sense": [
       {
         "id": "ewn-occult-v-02162770-02",
@@ -10789,16 +11085,6 @@
         "synset": "ewn-02149859-v",
         "dc:identifier": "occult%2:39:00::"
       }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-occult-v-02154041-01",
-        "subcategorizationFrame": "Something ----s"
-      },
-      {
-        "senses": "ewn-occult-v-02149859-01 ewn-occult-v-02162770-02",
-        "subcategorizationFrame": "Something ----s something"
-      }
     ]
   },
   "ewn-cabal-v": {
@@ -10807,6 +11093,16 @@
       "partOfSpeech": "v",
       "writtenForm": "cabal"
     },
+    "SyntacticBehaviour": [
+      {
+        "senses": "ewn-cabal-v-00708804-02",
+        "subcategorizationFrame": "Somebody ----s"
+      },
+      {
+        "senses": "ewn-cabal-v-00708804-02",
+        "subcategorizationFrame": "Somebody ----s PP"
+      }
+    ],
     "Form": [
       {
         "writtenForm": "caballed"
@@ -10820,20 +11116,12 @@
         "id": "ewn-cabal-v-00708804-02",
         "synset": "ewn-00708804-v",
         "dc:identifier": "cabal%2:31:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-cabal-n-05917476-02"
-        }
-      }
-    ],
-    "SyntacticBehaviour": [
-      {
-        "senses": "ewn-cabal-v-00708804-02",
-        "subcategorizationFrame": "Somebody ----s"
-      },
-      {
-        "senses": "ewn-cabal-v-00708804-02",
-        "subcategorizationFrame": "Somebody ----s PP"
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-cabal-n-05917476-02"
+          }
+        ]
       }
     ]
   },
@@ -10843,26 +11131,6 @@
       "partOfSpeech": "v",
       "writtenForm": "attribute"
     },
-    "Sense": [
-      {
-        "id": "ewn-attribute-v-00728262-04",
-        "synset": "ewn-00728262-v",
-        "dc:identifier": "attribute%2:31:00::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-attributable-a-00172851-01"
-        }
-      },
-      {
-        "id": "ewn-attribute-v-00742058-02",
-        "synset": "ewn-00742058-v",
-        "dc:identifier": "attribute%2:31:01::",
-        "SenseRelation": {
-          "relType": "derivation",
-          "target": "ewn-attribution-n-05742504-01"
-        }
-      }
-    ],
     "SyntacticBehaviour": [
       {
         "senses": "ewn-attribute-v-00728262-04",
@@ -10872,6 +11140,30 @@
         "senses": "ewn-attribute-v-00728262-04 ewn-attribute-v-00742058-02",
         "subcategorizationFrame": "Somebody ----s something PP"
       }
+    ],
+    "Sense": [
+      {
+        "id": "ewn-attribute-v-00728262-04",
+        "synset": "ewn-00728262-v",
+        "dc:identifier": "attribute%2:31:00::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-attributable-a-00172851-01"
+          }
+        ]
+      },
+      {
+        "id": "ewn-attribute-v-00742058-02",
+        "synset": "ewn-00742058-v",
+        "dc:identifier": "attribute%2:31:01::",
+        "SenseRelation": [
+          {
+            "relType": "derivation",
+            "target": "ewn-attribution-n-05742504-01"
+          }
+        ]
+      }
     ]
   },
   "ewn-scrub_up-v": {
@@ -10880,17 +11172,17 @@
       "partOfSpeech": "v",
       "writtenForm": "scrub up"
     },
+    "SyntacticBehaviour": {
+      "senses": "ewn-scrub_up-v-00036773-02",
+      "subcategorizationFrame": "Somebody ----s"
+    },
     "Sense": [
       {
         "id": "ewn-scrub_up-v-00036773-02",
         "synset": "ewn-00036773-v",
         "dc:identifier": "scrub_up%2:29:00::"
       }
-    ],
-    "SyntacticBehaviour": {
-      "senses": "ewn-scrub_up-v-00036773-02",
-      "subcategorizationFrame": "Somebody ----s"
-    }
+    ]
   },
   "ewn-Huang_Hai-n": {
     "id": "ewn-Huang_Hai-n",

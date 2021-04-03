@@ -45,15 +45,31 @@ const saveDigests = (dir, digests) => {
 
 const debug = (obj) => console.log(util.inspect(obj, { depth: Infinity, colors: true }))
 
+const arr = (item) => [item].flat().filter(x => x !== null && x !== undefined)
+const emp = (obj) => {
+  return Object.fromEntries(
+    Object.entries(obj)
+      .map(([k, v]) => [k, v])
+      .filter(([_, v]) => !(Array.isArray(v) && v.length === 0))
+  )
+}
 const convertLex = (lex) => {
-  console.log(lex)
-  return {
-    ...lex,
-    Sense: [lex.Sense].flat()
-  }
+  const { Sense, Form, ...rest } = lex
+  const newSense = arr(Sense).map(sense => {
+
+    const { SenseRelation, ...senseRest } = sense
+    return emp({
+      ...senseRest,
+      SenseRelation: arr(SenseRelation)
+    })
+  })
+  return emp({
+    ...rest,
+    Form: arr(Form),
+    Sense: newSense
+  })
 }
 const generateLexicalEntries = (lexs) => {
-
   const entries = lexs.map(lex => {
     const lexId = lex.id
     return [lexId, convertLex(lex)]
@@ -62,12 +78,15 @@ const generateLexicalEntries = (lexs) => {
   const digs = itemsToDigests(Object.fromEntries(entries))
   saveDigests(dir, digs)
 }
+const convertSynset = (syn) => {
+  return emp({ ...syn })
+}
 
 const generateSynset = (synsets) => {
   const digests = {}
   const entries = synsets.map(syn => {
     const id = syn.id
-    return [id, syn]
+    return [id, convertSynset(syn)]
   })
   
   const dir = "dic/syn"
