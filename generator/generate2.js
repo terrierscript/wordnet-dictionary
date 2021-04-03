@@ -28,21 +28,6 @@ const saveDigests = (dir, digests) => {
   })
 }
 
-// const htmlparser2 = require("htmlparser2");
-
-// const parser = new WritableStream({
-//   ontext(text) {
-//     console.log(text)
-//   },
-//   onopentag(name, attribute) {
-//     console.log(name,attribute)
-//   }
-// })
-
-// const fileStream = fs.createReadStream("./english-wordnet-2020.xml")
-
-// fileStream.pipe(parser)
-
 const debug = (obj) => console.log(util.inspect(obj, { depth: Infinity, colors: true }))
 
 const arr = (item) => [item].flat().filter(x => x !== null && x !== undefined)
@@ -150,6 +135,11 @@ const generateSenseMembers = () => {
 //   // generateSynsetSource(obj.LexicalResource.Lexicon.Synset)
 // }
 
+const generateLexIndex = () => {
+  const lex = require("../source/lex")
+  const 
+}
+
 const generateDataFiles = () => {
   console.log("start")
 
@@ -165,6 +155,7 @@ const generateDataFiles = () => {
 }
 const start = () => {
   generateDataFiles()
+  generateLexIndex()
   // generateSource()
   // generateSenseMembers()
 }
