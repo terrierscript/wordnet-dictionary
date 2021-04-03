@@ -34,5 +34,7 @@ console.log(
   ?? "✅ searchData words"
 )
 
-const random = getRandomWord()
-console.log(random)
+for (let i = 0; i < 100; i++) {
+  const random = getRandomWord()
+  assert.strictEqual(typeof random ,"string")
+}
