@@ -14,7 +14,7 @@ const emp = (obj) => {
   )
 }
 const convertLex = (lex) => {
-  const { Sense, Form,SyntacticBehaviour, ...rest } = lex
+  const { Lemma, Sense, Form,SyntacticBehaviour, ...rest } = lex
   const newSense = arr(Sense).map(sense => {
     const { SenseRelation, ...senseRest } = sense
     return emp({
@@ -24,6 +24,7 @@ const convertLex = (lex) => {
   })
   return emp({
     ...rest,
+    lemma: Lemma,
     form: arr(Form),
     sense: newSense,
     syntacticBehaviour: arr(SyntacticBehaviour)

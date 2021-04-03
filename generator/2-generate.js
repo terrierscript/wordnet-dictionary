@@ -145,6 +145,20 @@ const splitDigest = (items,dir) => {
 
 const generateLexIndex = () => {
   const lex = require("../source/lex")
+  const lemmaIdx = {}
+  const synsetIdx = {}
+  lex.slice(0, 10).map(l => {
+    console.log(JSON.stringify(l, null, 2))
+    
+    // lemma
+    const lemma = l.lemma.writtenForm 
+    const newL = lemmaIdx[lemma] ?? []
+    lemmaIdx[lemma] = [...newL, l.id]
+
+    // synset
+    const synsets = l.sense.map(s => s.synset)
+    
+  })
   // const 
 }
 
@@ -164,10 +178,8 @@ const generateDataFiles = () => {
   console.log("3")
 }
 const start = () => {
-  generateDataFiles()
+  // generateDataFiles()
   generateLexIndex()
-  // generateSource()
-  // generateSenseMembers()
 }
 
 start()
