@@ -79,8 +79,13 @@ const generateLexicalEntries = (lexs) => {
   saveDigests(dir, digs)
 }
 const convertSynset = (syn) => {
-  const { Definition, ...rest} = syn
-  return emp({ ...rest, Definition: arr(Definition) })
+  const { SynsetRelation, Definition, Example, ...rest } = syn
+  return emp({
+    ...rest,
+    SynsetRelation: arr(SynsetRelation),
+    Definition: arr(Definition),
+    Example: arr(Example)
+  })
 }
 
 const generateSynset = (synsets) => {
@@ -147,9 +152,9 @@ const generateSenseMembers = () => {
 const generateDataFiles = () => {
   console.log("start")
 
-  console.log("1")
-  const lex = require("../source/lex")
-  generateLexicalEntries(lex)
+  // console.log("1")
+  // const lex = require("../source/lex")
+  // generateLexicalEntries(lex)
 
   console.log("2")
   const syn = require("../source/syn")
