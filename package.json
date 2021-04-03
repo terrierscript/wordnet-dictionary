@@ -1,14 +1,14 @@
 {
   "name": "@terrierscript/wordnet-dictionary",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "main": "index.js",
   "private": false,
   "license": "MIT",
   "devDependencies": {
     "en-dictionary": "https://github.com/open-language/en-dictionary",
+    "fast-xml-parser": "^3.19.0",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.3",
-    "fast-xml-parser": "^3.19.0"
+    "typescript": "^4.2.3"
   },
   "scripts": {
     "generate": "ts-node --transpile-only generator/generate.ts",
