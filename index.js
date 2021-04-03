@@ -1,6 +1,7 @@
 const fs = require("fs")
-const md5 = require("md5")
 const path = require("path")
+const md5 = require("md5")
+
 const wordToDigest = (l) => {
   return md5(l).slice(0, 2)
 }
