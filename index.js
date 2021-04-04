@@ -13,22 +13,21 @@ const getFile = (type, dig) => {
   
 }
 
+const getItem = (type,  key) => {
+  const dig = wordToDigest(key)
+  const json = getFile(type, dig)
+  return json[key]
+}
 module.exports = {
-  searchLexicalEntry : (lemma) => {
-    const dig = wordToDigest(lemma)
-    const json = getFile("lex",dig)
-    
-    return json[lemma]
-  },
-  searchSynset : (id) => {
-    const dig = wordToDigest(id)
-    const json = getFile("syn",dig)
-    
-    return json[id]
-  },
-  getRandomWord: () => {
+  getLexicalEntry : (id) => getItem("lex", id),
+  getSense : (id) => getItem("sense", id),
+  getSynset : (id) => getItem("syn", id),
+  getLemma : (lemma) => getItem("lemma", lemma),
+  getSynsetIndex : (synsetId) => getItem("synidx", synsetId),
+  getSyntacticBehaviour : (senseId) => getItem("behavier", senseId),
+  getRandomWord : () => {
     const dig = `${(Math.floor(Math.random() * 16) ).toString(16)}${(Math.floor(Math.random() * 16) ).toString(16)}`
-    const json = getFile("lex",dig)
+    const json = getFile("lemma",dig)
     const words = Object.keys(json)
     const rand = Math.floor(Math.random() * words.length)
     return words[rand]
