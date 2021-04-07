@@ -6,16 +6,16 @@ const wordToDigest = (l) => {
   return md5(l).slice(0, 2)
 }
 
-const getFile = (type, dig) => {
+const getFile = (dirname, dig) => {
   // const filepath = path.join(__dirname, "dic", type, `${dig}.json`)
-  return require(`./dic/${type}/${dig}.json`)
+  return require(`./dic/${dirname}/${dig}.json`)
   // return JSON.parse(fs.readFileSync(filepath).toString())
   
 }
 
-const getItem = (type,  key) => {
+const getItem = (dirname, key) => {
   const dig = wordToDigest(key)
-  const json = getFile(type, dig)
+  const json = getFile(dirname, dig)
   return json[key]
 }
 module.exports = {
@@ -24,7 +24,7 @@ module.exports = {
   getSynset : (id) => getItem("syn", id),
   getLemma : (lemma) => getItem("lemma", lemma),
   getSynsetIndex : (synsetId) => getItem("synidx", synsetId),
-  getSyntacticBehaviour : (senseId) => getItem("behavier", senseId),
+  getSyntacticBehaviour: (senseId) => getItem("behavier", senseId),
   getRandomWord : () => {
     const dig = `${(Math.floor(Math.random() * 16) ).toString(16)}${(Math.floor(Math.random() * 16) ).toString(16)}`
     const json = getFile("lemma",dig)
