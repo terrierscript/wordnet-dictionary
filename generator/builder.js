@@ -122,11 +122,31 @@ const buildSyntacticBehaviour = (lexSrc) => {
   return idx
 }
 
+// output: { [synset] :synset[]] }
+// lex -> sense -> relType=derivation's revert delivation
+const buildSenseDelivationIndex = (lex) => {
+  const map = new Map()
+  lex.map(l => [l.Sense].flat().map(sense => {
+    const synset = sense.synset
+    const rels = [sense.SenseRelation].flat().filter(l => !!l)
+    rels
+      .map(rel => {
+        const m = map.get(rel.target) ?? []
+        map.set(rel.target, [...m,{
+          relType: rel.relType,
+          synset
+        }])
+      })
+  }))
+  return map
+}
+
 module.exports = {
   buildLexicalEntries,
   buildSynset,
   buildSense,
   buildLemmaIndex,
   buildSynsetIndex,
-  buildSyntacticBehaviour
+  buildSyntacticBehaviour,
+  buildSenseDelivationIndex
 }
