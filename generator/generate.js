@@ -31,13 +31,13 @@ const execute = (name, dir, executor) => {
 const generateDataFiles = (lexSrc,synSrc) => {
   console.log("start")
 
-  // execute("lexical-entries", "dic/lex", () =>  builders.buildLexicalEntries(lexSrc))
-  // execute("synset", "dic/syn", () =>  builders.buildSynset(synSrc))
-  // execute("sense", "dic/sense", () =>  builders.buildSense(lexSrc))
-  // execute("lemma-index", "dic/lemma", () => builders.buildLemmaIndex(lexSrc))  
-  // execute("synset-index", "dic/synidx", () => builders.buildSynsetIndex(lexSrc))
-  // execute("syntactic-behaviour", "dic/behavior", () => builders.buildSyntacticBehaviour(lexSrc))
-  execute("senseidx", "dic/senseidx", () => builders.buildSenseDelivationIndex(lexSrc))
+  execute("lexical-entries", "dic/lex", () =>  builders.buildLexicalEntries(lexSrc))
+  execute("synset", "dic/syn", () =>  builders.buildSynset(synSrc))
+  execute("sense", "dic/sense", () =>  builders.buildSense(lexSrc))
+  execute("lemma-index", "dic/lemma", () => builders.buildLemmaIndex(lexSrc))  
+  execute("synset-index", "dic/synidx", () => builders.buildSynsetIndex(lexSrc))
+  execute("syntactic-behaviour", "dic/behavior", () => builders.buildSyntacticBehaviour(lexSrc))
+  execute("senseidx", "dic/senseidx", () => builders.buildSenseIndex(lexSrc))
   
   console.log("end")
 }
