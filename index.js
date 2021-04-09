@@ -23,6 +23,7 @@ module.exports = {
   getSense : (id) => getItem("sense", id),
   getSynset : (id) => getItem("syn", id),
   getLemma : (lemma) => getItem("lemma", lemma),
+  getSenseIndex : (id) => getItem("senseidx", id),
   getSynsetIndex : (synsetId) => getItem("synidx", synsetId),
   getSyntacticBehaviour: (senseId) => getItem("behavier", senseId),
   getRandomWord : () => {
