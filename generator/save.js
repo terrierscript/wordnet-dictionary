@@ -21,21 +21,19 @@ const itemsToDigests = (obj) => {
 }
 
 const jsonCompactStringify = (obj) => {
-  if (Array.isArray(obj)) {
-    throw new Error("obj is array")
-  }
-  const rows = Object.entries(obj)
-    .map(([k, v]) => `  "${k}" : ${JSON.stringify(v)}`)
-    .join(",\n")
-  return [`{`,rows,'}']
-  .join("\n")
+  const [s,e] = Array.isArray(obj) ? [`[`, `]`] : [`{`,`}`]
+  return [s,
+    Object.entries(obj)
+      .map(([k, v]) => `  "${k}" : ${JSON.stringify(v)}`)
+      .join(",\n")
+  , e].join("\n")
 }
 
 const saveDigests = (dir, digests) => {
   fs.mkdirSync(dir, { recursive: true })
   Object.entries(digests).map(([dig, obj]) => {
-    const item = JSON.stringify(obj, null, 2)
-    // const item = jsonCompactStringify(obj)
+    // const item = JSON.stringify(obj, null, 2)
+    const item = jsonCompactStringify(obj)
     fs.writeFileSync(
       `${dir}/${dig}.json`,item
     )
