@@ -134,7 +134,8 @@ const buildSenseIndex = (lex) => {
         const m = map.get(rel.target) ?? []
         map.set(rel.target, [...m,{
           relType: rel.relType,
-          synset
+          synset,
+          sense: sense.id
         }])
       })
   }))
