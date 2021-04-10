@@ -1,5 +1,3 @@
-const fs = require("fs")
-const path = require("path")
 const md5 = require("md5")
 
 const wordToDigest = (l) => {
@@ -7,10 +5,7 @@ const wordToDigest = (l) => {
 }
 
 const getFile = (dirname, dig) => {
-  // const filepath = path.join(__dirname, "dic", type, `${dig}.json`)
-  return require(`./dic/${dirname}/${dig}.json`)
-  // return JSON.parse(fs.readFileSync(filepath).toString())
-  
+  return require(`./dic/${dirname}/${dig}.json`)  
 }
 
 const getItem = (dirname, key) => {
