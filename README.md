@@ -7,7 +7,7 @@
 ## Install
 
 ```sh
-yarn install @terrierscript/wordnet-dictionary
+yarn install @terrierscript/normalized-global-wordnet-en
 ```
 
 ## Run tests
