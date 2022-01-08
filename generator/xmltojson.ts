@@ -5,7 +5,7 @@ const parser = require("fast-xml-parser")
 // const file = path.join(__dirname, `./source/${fileName}.xml`)
 // const data = fs.readFileSync(file).toString()
 
-module.exports = (xml) => {
+export default function (xml) {
   const obj = parser.parse(xml, {
     // attrNodeName: "attributes",
     // arrayMode: "strict",

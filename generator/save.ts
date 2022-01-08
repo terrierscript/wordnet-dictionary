@@ -21,12 +21,12 @@ const itemsToDigests = (obj) => {
 }
 
 const jsonCompactStringify = (obj) => {
-  const [s,e] = Array.isArray(obj) ? [`[`, `]`] : [`{`,`}`]
+  const [s, e] = Array.isArray(obj) ? [`[`, `]`] : [`{`, `}`]
   return [s,
     Object.entries(obj)
       .map(([k, v]) => `  "${k}" : ${JSON.stringify(v)}`)
       .join(",\n")
-  , e].join("\n")
+    , e].join("\n")
 }
 
 const saveDigests = (dir, digests) => {
@@ -35,7 +35,7 @@ const saveDigests = (dir, digests) => {
     // const item = JSON.stringify(obj, null, 2)
     const item = jsonCompactStringify(obj)
     fs.writeFileSync(
-      `${dir}/${dig}.json`,item
+      `${dir}/${dig}.json`, item
     )
   })
 }
@@ -47,10 +47,8 @@ const objectOrMapToObject = (item) => {
   return Object.fromEntries(itemEntries)
 }
 
-const saveDigestObj = (obj, dir) => {
+export const saveDigestObj = (obj, dir) => {
   const digs = itemsToDigests(objectOrMapToObject(obj))
   // console.log(Object.values(digs).map(d => d.length))
   saveDigests(dir, digs)
 }
-
-module.exports = { saveDigestObj }
