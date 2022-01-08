@@ -1,7 +1,8 @@
-const parser = require('fast-xml-parser');
+const parser = require("fast-xml-parser")
 const fs = require("fs")
 const path = require("path")
-const file = path.join(__dirname,"./source/english-wordnet-2020.xml")
+const fileName = "english-wordnet-2020"
+const file = path.join(__dirname, `./source/${fileName}.xml`)
 const data = fs.readFileSync(file).toString()
 
 const obj = parser.parse(data, {
@@ -11,6 +12,6 @@ const obj = parser.parse(data, {
   attributeNamePrefix: "",
 })
 
-const output = path.join(__dirname,"./source/english-wordnet-2020.json")
+const output = path.join(__dirname, `./source/${fileName}.json`)
 
-fs.writeFileSync(output,JSON.stringify(obj))
+fs.writeFileSync(output, JSON.stringify(obj))
