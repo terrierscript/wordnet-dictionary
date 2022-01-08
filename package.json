@@ -1,6 +1,6 @@
 {
   "name": "@terrierscript/normalized-global-wordnet-en",
-  "version": "2021.0.0",
+  "version": "2021.0.1",
   "main": "index.js",
   "private": false,
   "license": "MIT",
@@ -9,10 +9,10 @@
     "fast-xml-parser": "^3.19.0",
     "jsonld": "^5.0.0",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.3"
+    "typescript": "^4.5.4"
   },
   "scripts": {
-    "prepare": "curl -o tmp/source.xml.gz https://en-word.net/static/english-wordnet-2021.xml.gz; gunzip -c tmp/source.xml.gz > tmp/source.xml",
+    "generate:prepare": "curl -o tmp/source.xml.gz https://en-word.net/static/english-wordnet-2021.xml.gz; gunzip -c tmp/source.xml.gz > tmp/source.xml",
     "generate": "node generator/generate",
     "test": "node test/index.test.js"
   },
