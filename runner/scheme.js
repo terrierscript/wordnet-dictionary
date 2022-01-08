@@ -1,11 +1,18 @@
-const lexSample = "dic/lemma/00.json"
-
 const lex = () => {
+  const lexSample = require("../dic/lex/00.json")
   Object.values(lexSample).map((l) => {
-    console.log(l)
+    console.log(l, Object.keys(l))
   })
 }
-export const start = () => {
+const lemma = () => {
+  // const lexSample = require("../dic/lemma/00.json")
+  // Object.entries(lexSample).map((l) => {
+  //   console.log(l)
+  // })
+}
+
+const start = () => {
   lex()
+  lemma()
 }
 start()

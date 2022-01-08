@@ -1,4 +1,5 @@
 import md5 from "md5"
+import { LexicalEntry } from "./scheme"
 
 const wordToDigest = (l: string) => {
   return md5(l).slice(0, 2)
