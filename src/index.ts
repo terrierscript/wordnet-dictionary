@@ -27,6 +27,7 @@ export const getSynset = (id: string) => getItem<Synset>("syn", id)
 export const getLemma = (lemma: string) => getItem<Lemma>("lemma", lemma)
 export const getSenseIndex = (id: string) => getItem<SenseIndex>("senseidx", id)
 export const getSynsetIndex = (synsetId: string) => getItem<SynsetIndex>("synidx", synsetId)
+type Behavior = string[]
 export const getSyntacticBehaviour = (senseId: string) => getItem<Behavior>("behavier", senseId)
 export const getRandomWord = () => {
   const dig = `${(Math.floor(Math.random() * 16)).toString(16)}${(Math.floor(Math.random() * 16)).toString(16)}`
