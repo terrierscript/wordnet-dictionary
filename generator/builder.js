@@ -1,10 +1,10 @@
-const parser = require('fast-xml-parser');
-const fs = require("fs")
-const path = require("path")
+// const parser = require("fast-xml-parser")
+// const fs = require("fs")
+// const path = require("path")
 
-const file = "./generator/english-wordnet-2020.xml"
+// const file = "./generator/english-wordnet-2021.xml"
 
-const arr = (item) => [item].flat().filter(x => x !== null && x !== undefined)
+const arr = (item) => [item].flat().filter((x) => x !== null && x !== undefined)
 const emp = (obj) => {
   return Object.fromEntries(
     Object.entries(obj)
@@ -16,7 +16,7 @@ const emp = (obj) => {
 
 const convertLex2 = (lex) => {
   const { Lemma, Form, Sense, SyntacticBehaviour, ...rest } = lex
-  const senseIds = arr(Sense).map(sense => sense.id)
+  const senseIds = arr(Sense).map((sense) => sense.id)
   return emp({
     ...rest,
     lemma: Lemma,
@@ -27,9 +27,11 @@ const convertLex2 = (lex) => {
 }
 
 const buildLexicalEntries = (lexs) => {
-  return Object.fromEntries(lexs.map(lex => {
-    return [lex.id,convertLex2(lex)]
-  }))
+  return Object.fromEntries(
+    lexs.map((lex) => {
+      return [lex.id, convertLex2(lex)]
+    })
+  )
 }
 
 const convertSynset = (syn) => {
@@ -39,14 +41,16 @@ const convertSynset = (syn) => {
     iliDefinition: ILIDefinition,
     synsetRelation: arr(SynsetRelation),
     definition: arr(Definition),
-    example: arr(Example)
+    example: arr(Example),
   })
 }
 
 const buildSynset = (synsets) => {
-  return Object.fromEntries(synsets.map(syn => {
-    return [syn.id, convertSynset(syn)]
-  }))
+  return Object.fromEntries(
+    synsets.map((syn) => {
+      return [syn.id, convertSynset(syn)]
+    })
+  )
 }
 
 const buildSynsetIndex = (lex) => {
@@ -59,29 +63,29 @@ const buildSynsetIndex = (lex) => {
     })
   })
   return Object.fromEntries(
-    [...synsetIdx.entries()].map(([k,v])=> {
-      return [k, {lexicalEntry:v}]
+    [...synsetIdx.entries()].map(([k, v]) => {
+      return [k, { lexicalEntry: v }]
     })
   )
 }
 
 const buildSense = (lex) => {
   const map = new Map()
-  lex.map((l, i) => {
-    return arr(l.Sense)
-  })
+  lex
+    .map((l, i) => {
+      return arr(l.Sense)
+    })
     .flat()
     .map(({ SenseRelation, ...sense }) => {
-      const newSense =  emp({
+      const newSense = emp({
         ...sense,
-        senseRelation: arr(SenseRelation)
+        senseRelation: arr(SenseRelation),
       })
       // console.log(newSense)
-      map.set(sense.id,newSense)
+      map.set(sense.id, newSense)
     })
   return map
 }
-
 
 const buildLemmaIndex = (lex) => {
   const lemmaIdx = new Map()
@@ -93,31 +97,37 @@ const buildLemmaIndex = (lex) => {
     lemmaIdx.set(lemma, [...curr, id])
 
     // form idx
-    arr(l.Form).map(l => {
+    arr(l.Form).map((l) => {
       const curr = formsIdx.get(lemma) ?? []
       formsIdx.set(l.writtenForm, [...curr, id])
     })
   })
   const all = new Set([...lemmaIdx.keys(), ...formsIdx.keys()])
 
-  return Object.fromEntries([...all].map(k => {
-    return [k, {
-      lexicalEntry: lemmaIdx.get(k),
-      form: formsIdx.get(k) 
-    }]
-  }).sort())
+  return Object.fromEntries(
+    [...all]
+      .map((k) => {
+        return [
+          k,
+          {
+            lexicalEntry: lemmaIdx.get(k),
+            form: formsIdx.get(k),
+          },
+        ]
+      })
+      .sort()
+  )
 }
 
 const buildSyntacticBehaviour = (lexSrc) => {
   const idx = new Map()
-  lexSrc.map(lex => {
-    arr(lex.SyntacticBehaviour)
-      .map(({ senses, subcategorizationFrame }) => {
-        senses.split(" ").map(s => {
-          const curr = idx.get(s) ?? []
-          idx.set(s, [...curr, subcategorizationFrame])
-        })
+  lexSrc.map((lex) => {
+    arr(lex.SyntacticBehaviour).map(({ senses, subcategorizationFrame }) => {
+      senses.split(" ").map((s) => {
+        const curr = idx.get(s) ?? []
+        idx.set(s, [...curr, subcategorizationFrame])
       })
+    })
   })
   return idx
 }
@@ -126,19 +136,23 @@ const buildSyntacticBehaviour = (lexSrc) => {
 // lex -> sense -> relType=derivation's revert delivation
 const buildSenseIndex = (lex) => {
   const map = new Map()
-  lex.map(l => [l.Sense].flat().map(sense => {
-    const synset = sense.synset
-    const rels = [sense.SenseRelation].flat().filter(l => !!l)
-    rels
-      .map(rel => {
+  lex.map((l) =>
+    [l.Sense].flat().map((sense) => {
+      const synset = sense.synset
+      const rels = [sense.SenseRelation].flat().filter((l) => !!l)
+      rels.map((rel) => {
         const m = map.get(rel.target) ?? []
-        map.set(rel.target, [...m,{
-          relType: rel.relType,
-          synset,
-          sense: sense.id
-        }])
+        map.set(rel.target, [
+          ...m,
+          {
+            relType: rel.relType,
+            synset,
+            sense: sense.id,
+          },
+        ])
       })
-  }))
+    })
+  )
   return map
 }
 
@@ -149,5 +163,5 @@ module.exports = {
   buildLemmaIndex,
   buildSynsetIndex,
   buildSyntacticBehaviour,
-  buildSenseIndex
+  buildSenseIndex,
 }
