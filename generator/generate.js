@@ -44,13 +44,15 @@ const generateDataFiles = (lexSrc, synSrc) => {
   console.log("end")
 }
 
-const start = () => {
-  const obj = require("./source/english-wordnet-2021.json")
+const start = (obj) => {
+  // const obj = require("./source/english-wordnet-2021.json")
   generateDataFiles(
     obj.LexicalResource.Lexicon.LexicalEntry,
     obj.LexicalResource.Lexicon.Synset
   )
   // generateLexIndex()
 }
-
-start()
+module.exports = (obj) => {
+  start(obj)
+}
+// start()
