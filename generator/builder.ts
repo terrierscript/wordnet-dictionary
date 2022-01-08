@@ -14,7 +14,7 @@ const emp = (obj) => {
   )
 }
 
-const convertLex2 = (lex) => {
+export const convertLex2 = (lex) => {
   const { Lemma, Form, Sense, SyntacticBehaviour, ...rest } = lex
   const senseIds = arr(Sense).map((sense) => sense.id)
   return emp({
@@ -26,7 +26,7 @@ const convertLex2 = (lex) => {
   })
 }
 
-const buildLexicalEntries = (lexs) => {
+export const buildLexicalEntries = (lexs) => {
   return Object.fromEntries(
     lexs.map((lex) => {
       return [lex.id, convertLex2(lex)]
@@ -34,7 +34,7 @@ const buildLexicalEntries = (lexs) => {
   )
 }
 
-const convertSynset = (syn) => {
+export const convertSynset = (syn) => {
   const { SynsetRelation, Definition, Example, ILIDefinition, ...rest } = syn
   return emp({
     ...rest,
@@ -45,7 +45,7 @@ const convertSynset = (syn) => {
   })
 }
 
-const buildSynset = (synsets) => {
+export const buildSynset = (synsets) => {
   return Object.fromEntries(
     synsets.map((syn) => {
       return [syn.id, convertSynset(syn)]
@@ -53,7 +53,7 @@ const buildSynset = (synsets) => {
   )
 }
 
-const buildSynsetIndex = (lex) => {
+export const buildSynsetIndex = (lex) => {
   const synsetIdx = new Map()
   lex.map((l) => {
     // synset
@@ -69,7 +69,7 @@ const buildSynsetIndex = (lex) => {
   )
 }
 
-const buildSense = (lex) => {
+export const buildSense = (lex) => {
   const map = new Map()
   lex
     .map((l, i) => {
@@ -87,7 +87,7 @@ const buildSense = (lex) => {
   return map
 }
 
-const buildLemmaIndex = (lex) => {
+export const buildLemmaIndex = (lex) => {
   const lemmaIdx = new Map()
   const formsIdx = new Map()
   lex.map((l, i) => {
@@ -119,7 +119,7 @@ const buildLemmaIndex = (lex) => {
   )
 }
 
-const buildSyntacticBehaviour = (lexSrc) => {
+export const buildSyntacticBehaviour = (lexSrc) => {
   const idx = new Map()
   lexSrc.map((lex) => {
     arr(lex.SyntacticBehaviour).map(({ senses, subcategorizationFrame }) => {
@@ -134,7 +134,7 @@ const buildSyntacticBehaviour = (lexSrc) => {
 
 // output: { [synset] :synset[]] }
 // lex -> sense -> relType=derivation's revert delivation
-const buildSenseIndex = (lex) => {
+export const buildSenseIndex = (lex) => {
   const map = new Map()
   lex.map((l) =>
     [l.Sense].flat().map((sense) => {
@@ -156,12 +156,3 @@ const buildSenseIndex = (lex) => {
   return map
 }
 
-module.exports = {
-  buildLexicalEntries,
-  buildSynset,
-  buildSense,
-  buildLemmaIndex,
-  buildSynsetIndex,
-  buildSyntacticBehaviour,
-  buildSenseIndex,
-}

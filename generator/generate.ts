@@ -15,8 +15,8 @@
 // Synset -> LexicalEntity
 // synset -> member
 
-const builders = require("./builder")
-const { saveDigestObj } = require("./save")
+import * as builders from "./builder"
+import { saveDigestObj } from "./save"
 
 const execute = (name, dir, executor) => {
   console.log(`start: ${name}`)
