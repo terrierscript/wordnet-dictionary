@@ -17,7 +17,7 @@
   "scripts": {
     "build": "tsc",
     "generate:prepare": "curl -o tmp/source.xml.gz https://en-word.net/static/english-wordnet-2021.xml.gz; gunzip -c tmp/source.xml.gz > tmp/source.xml",
-    "generate": "ts-node generator/generate",
+    "generate": "ts-node runner/generate.ts",
     "test": "ts-node test/index.test.js"
   },
   "dependencies": {

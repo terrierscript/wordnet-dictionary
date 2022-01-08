@@ -1,6 +1,6 @@
-const fs = require("fs")
-const xmlToJson = require("../generator/xmltojson")
-const generate = require("../generator/generate")
+import fs from "fs"
+import { xmlToJson } from "../generator/xmltojson"
+import { generate } from "../generator/generate"
 
 const execute = () => {
   const file = fs.readFileSync("./tmp/source.xml")

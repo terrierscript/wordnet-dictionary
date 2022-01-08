@@ -44,7 +44,7 @@ const generateDataFiles = (lexSrc, synSrc) => {
   console.log("end")
 }
 
-export const start = (obj) => {
+export const generate = (obj) => {
   // const obj = require("./source/english-wordnet-2021.json")
   generateDataFiles(
     obj.LexicalResource.Lexicon.LexicalEntry,
