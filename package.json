@@ -12,6 +12,7 @@
     "typescript": "^4.2.3"
   },
   "scripts": {
+    "prepare": "curl -o - https://en-word.net/static/english-wordnet-2021.xml.gz | gzip > tmp/source.xml.gz",
     "generate": "node generator/generate",
     "test": "node test/index.test.js"
   },
