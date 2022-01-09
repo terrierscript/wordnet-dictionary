@@ -15,11 +15,14 @@ const getFile = (dirname: string, dig: string) => {
   return require(path.join(__dirname, `../dic/${dirname}/${dig}.json`))
 }
 
+
 const getItem = <T>(dirname: string, key: string): T | undefined => {
   const dig = wordToDigest(key)
   const json = getFile(dirname, dig)
-  return json[key]
+  return json?.[key]
+  // T | undefined | null
 }
+
 
 
 export const getLexicalEntry = (id: string) => getItem<LexicalEntry>("lex", id)
@@ -29,7 +32,7 @@ export const getLemma = (lemma: string) => getItem<Lemma>("lemma", lemma)
 export const getSenseIndex = (id: string) => getItem<SenseIndex>("senseidx", id)
 export const getSynsetIndex = (synsetId: string) => getItem<SynsetIndex>("synidx", synsetId)
 type Behavior = string[]
-export const getSyntacticBehaviour = (senseId: string) => getItem<Behavior>("behavier", senseId)
+export const getSyntacticBehavior = (senseId: string) => getItem<Behavior>("behavier", senseId)
 export const getRandomWord = () => {
   const dig = `${(Math.floor(Math.random() * 16)).toString(16)}${(Math.floor(Math.random() * 16)).toString(16)}`
   const json = getFile("lemma", dig)
