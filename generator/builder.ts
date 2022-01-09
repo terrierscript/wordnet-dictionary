@@ -5,7 +5,7 @@
 // const file = "./generator/english-wordnet-2021.xml"
 
 const arr = (item) => [item].flat().filter((x) => x !== null && x !== undefined)
-const emp = (obj) => {
+const emp = <T>(obj: T): T => {
   return Object.fromEntries(
     Object.entries(obj)
       .map(([k, v]) => [k, v])
