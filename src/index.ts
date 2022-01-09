@@ -1,4 +1,5 @@
 import md5 from "md5"
+import path from "path"
 import { Lemma } from "./types/Lemma"
 import { LexicalEntry } from "./types/LexicalEntry"
 import { Sense } from "./types/Sense"
@@ -11,7 +12,7 @@ const wordToDigest = (l: string) => {
 }
 
 const getFile = (dirname: string, dig: string) => {
-  return require(`./dic/${dirname}/${dig}.json`)
+  return require(path.join(__dirname, `../dic/${dirname}/${dig}.json`))
 }
 
 const getItem = <T>(dirname: string, key: string): T | undefined => {
