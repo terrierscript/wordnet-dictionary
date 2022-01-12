@@ -32,3 +32,7 @@ searchData(2659476)
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+
+
+## Resouces
+* https://github.com/globalwordnet/english-wordnet

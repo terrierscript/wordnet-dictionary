@@ -20,7 +20,6 @@ const getItem = <T>(dirname: string, key: string): T | undefined => {
   const dig = wordToDigest(key)
   const json = getFile(dirname, dig)
   return json?.[key]
-  // T | undefined | null
 }
 
 
