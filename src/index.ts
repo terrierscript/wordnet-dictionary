@@ -7,6 +7,15 @@ import { SenseIndex } from "./types/SenseIndex"
 import { Synset } from "./types/Synset"
 import { SynsetIndex } from "./types/SynsetIndex"
 
+export type {
+  Lemma,
+  LexicalEntry,
+  Sense,
+  SenseIndex,
+  Synset,
+  SynsetIndex,
+}
+
 const wordToDigest = (l: string) => {
   return md5(l).slice(0, 2)
 }
