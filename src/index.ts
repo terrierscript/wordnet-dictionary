@@ -37,7 +37,7 @@ export const getLexicalEntry = (id: string) => getItem<LexicalEntry>("lex", id)
 export const getSense = (id: string) => getItem<Sense>("sense", id)
 export const getSynset = (id: string) => getItem<Synset>("syn", id)
 export const getLemma = (lemma: string) => getItem<Lemma>("lemma", lemma)
-export const getSenseIndex = (id: string) => getItem<SenseIndex>("senseidx", id)
+export const getSenseIndex = (id: string) => getItem<SenseIndex[]>("senseidx", id)
 export const getSynsetIndex = (synsetId: string) => getItem<SynsetIndex>("synidx", synsetId)
 type Behavior = string[]
 export const getSyntacticBehavior = (senseId: string) => getItem<Behavior>("behavier", senseId)
