@@ -48,3 +48,15 @@ export const getRandomWord = () => {
   const rand = Math.floor(Math.random() * words.length)
   return words[rand]
 }
+
+export const getFileIndexes = () => {
+  return Array(256).fill(0).map((m, i) => {
+    return i.toString(16).padStart(2, "0")
+  })
+}
+
+export const getFileWords = (index: string) => {
+  const json = getFile("lemma", index)
+  const words = Object.keys(json)
+  return words
+}
