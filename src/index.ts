@@ -21,7 +21,7 @@ const wordToDigest = (l: string) => {
 }
 
 const getFile = (dirname: string, dig: string) => {
-  return require(path.join(__dirname, `../dic/${dirname}/${dig}.json`))
+  return require(path.join(`../dic/${dirname}/${dig}.json`))
 }
 
 
