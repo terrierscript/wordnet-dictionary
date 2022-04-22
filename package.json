@@ -1,6 +1,6 @@
 {
   "name": "@terrierscript/normalized-global-wordnet-en",
-  "version": "2021.2.3",
+  "version": "2021.2.5",
   "main": "dist/index.js",
   "private": false,
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepublish": "build",
+    "prepublish": "yarn build",
     "build": "tsc",
     "generate:prepare": "curl -o tmp/source.xml.gz https://en-word.net/static/english-wordnet-2021.xml.gz; gunzip -c tmp/source.xml.gz > tmp/source.xml",
     "generate": "ts-node runner/generate.ts",
