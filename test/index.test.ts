@@ -1,13 +1,17 @@
 import { test, expect } from "vitest"
 // const assert = require("assert")
 import {
-  getLexicalEntry,
+  generateDictionary
+} from "../dist/index"
+
+
+const { getLexicalEntry,
   getSynset,
   getSynsetIndex,
   getRandomWord,
   getFileIndexes,
   getFileWords
-} from "../dist/index"
+} = generateDictionary()
 
 test("getLexicalEntry", () => {
   const lex = getLexicalEntry("oewn-lie-v")
