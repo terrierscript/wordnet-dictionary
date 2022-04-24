@@ -7,7 +7,7 @@ import {
   getRandomWord,
   getFileIndexes,
   getFileWords
-} from "../src/index"
+} from "../dist/index"
 
 test("getLexicalEntry", () => {
   const lex = getLexicalEntry("oewn-lie-v")
