@@ -23,6 +23,7 @@
     "generate": "ts-node runner/generate.ts",
     "test": "ts-node test/index.test.js"
   },
+  "sideEffects": true,
   "dependencies": {
     "@terrierscript/normalized-global-wordnet-en": "^0.0.8",
     "@types/node": "^17.0.8",
